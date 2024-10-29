@@ -43,7 +43,7 @@ event TrainingPressSpacebarBlinkLoop{}
 event TrainingPressSpacebarBlinkStop{}
 event IntroMovieContinueBlink{}
 event IntroMovieContinueBlinkLoop{}
-event IntroMovieContinueBlinkStop{}
+//event IntroMovieContinueBlinkStop{}	//Used to insta-skip intro movies
 event HasMOTDBlink{}
 event HasMOTDBlinkLoop{}
 event HasMOTDBlinkStop{}

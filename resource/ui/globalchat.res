@@ -17,7 +17,7 @@
 
 		"log_font_small"		"Size 14"
 		"log_font_medium"		"Size 8"	//Menu pary chat
-		"log_font_large"		"Size 24"
+		"log_font_large"		"Size 8"	//Joined party
 
 		"chat_color_default"		"White"
 		"chat_color_player_name"		"MainTheme"

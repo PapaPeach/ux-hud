@@ -16,10 +16,7 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 }
 
 event CompetitiveGame_LowerChatWindow{}	//plays at post-casual xp screen
-event HudTournament_MoveChatWindow
-{
-	//PlaySound 1 "weapons/det_pack_timer.wav"
-}
+event HudTournament_MoveChatWindow{}
 
 //==============================================================================
 
@@ -163,7 +160,6 @@ event HudMedicChargedStop
 event TeamStatus_PlayerDead
 {
 	SetVisible respawntime	1 0.0
-	//PlaySound 0 "weapons/det_pack_timer.wav"
 }
 
 event TeamStatus_PlayerAlive
@@ -191,22 +187,27 @@ event HudTournamentSetupPanelOpen
 	Animate HudTournamentSetup	xpos	c-90	Linear 0.0 0.001	//Fix wrong position
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
 
-	//PlaySound 0 "items/samurai/tf_samurai_noisemaker_setb_02.wav"
+	RunEventChild MainMenuOverride HudRecOpen 0.0
 }
 
 event HudTournamentSetupPanelClose	//runs on setup menu initialization | runs on local map initialization
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 
-	//PlaySound 0.0 "music/trombonetauntv2.mp3"
-	//RunEventChild MainMenuOverride HudRec 0.1
+	RunEventChild MainMenuOverride HudRecClose 0.0
 }
 
-event HudRec
+//HudRec V2
+event HudRecClose
 {
-	FireCommand 0.0 "engine echo ====================0.0===================="
-	FireCommand 0.2 "engine echo ====================0.2===================="
-	FireCommand 0.2 "engine stop;ds_record;play weapons/det_pack_timer.wav"
+	FireCommand 0.2 "engine echo ====================hudrec_close===================="
+	FireCommand 0.2 "engine hudrec_close"
+
+}
+event HudRecOpen
+{
+	FireCommand 0.1 "engine echo ====================hudrec_open===================="
+	FireCommand 0.1 "engine hudrec_open"
 }
 
 //==============================================================================
@@ -237,12 +238,11 @@ event HudSpyDisguiseChanged{}
 event HudTournament_ShowTimerCompetitive	//triggers in casual at start of fresh match
 {
 	SetVisible CountdownLabel 1 0.0
-	//PlaySound 0 "weapons/det_pack_timer.wav"
 }
 
 event HudTournament_ShowTimerDefault	//MvM Countdown
 {
-	SetVisible CountdownLabel 1 0.1
+	SetVisible CountdownLabel 1 0.0
 }
 
 event HudReadyPulseEnd
@@ -255,6 +255,8 @@ event HudReadyPulseEnd
 	RunEventChild MainMenuOverride MvMFixer 0.0	//Fix empty MvM end screen, needs 3 entries
 	RunEventChild MainMenuOverride MvMFixer 0.0
 	RunEventChild MainMenuOverride MvMFixer 0.0
+
+	RunEvent HudTournament_ShowTimerDefault 0.0
 }
 
 event HudTournament_HideTimer
@@ -282,4 +284,11 @@ event HudMatchStatus_ShowCountdown
 event CompetitiveGame_ShowPvPRankPanel
 {
 	RunEventChild RankPanel PvPRankPanelShowXPChange 0
+}
+
+//==============================================================================
+
+event IntroMovieContinueBlinkStop
+{
+	FireCommand 0.0 "skip"
 }

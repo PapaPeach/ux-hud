@@ -203,35 +203,7 @@ Scheme
 
 		"Default"
 		{
-			"isproportional" "only"
-//			"1"
-//			{
-//				"name"		"Renogare Soft XHud"
-//				"tall"		"13"
-//				"weight"	"0"
-//				"range"		"0x0000 0x017F"
-//				"yres"	"480 1023"
-//				"antialias"	"1"
-//			}
-//			"2"
-//			{
-//				"name"		"Renogare Soft XHud"
-//				"tall"		"16"
-//				"weight"	"0"
-//				"range"		"0x0000 0x017F"
-//				"yres"	"1024 1199"
-//				"antialias"	"1"
-//			}
-//			"3"
-//			{
-//				"name"		"Renogare Soft XHud"
-//				"tall"		"21"
-//				"weight"	"0"
-//				"range"		"0x0000 0x017F"
-//				"yres"	"1200 1999"
-//				"antialias"	"1"
-//			}
-			"4"
+			"1"
 			{
 				"name"		"Renogare Soft XHud"
 				"tall"		"7"
@@ -248,41 +220,8 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"10"
+				"tall"		"5"
 				"weight"	"0"
-				"yres"		"480 599"
-				"symbol"	"1"
-			}
-			"2"
-			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"weight"	"0"
-				"yres"		"600 767"
-				"symbol"	"1"
-			}
-			"3"
-			{
-				"name"		"Marlett"
-				"tall"		"13"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"symbol"	"1"
-			}
-			"4"
-			{
-				"name"		"Marlett"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"symbol"	"1"
-			}
-			"5"
-			{
-				"name"		"Marlett"
-				"tall"		"22"
-				"weight"	"0"
-				"yres"		"1200 6000"
 				"symbol"	"1"
 			}
 		}
@@ -292,76 +231,15 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"7"
+				"tall"		"4"
 				"weight"	"0"
-				"yres"		"480 599"
-				"symbol"	"1"
-			}
-			"2"
-			{
-				"name"		"Marlett"
-				"tall"		"9"
-				"weight"	"0"
-				"yres"		"600 767"
-				"symbol"	"1"
-			}
-			"3"
-			{
-				"name"		"Marlett"
-				"tall"		"11"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"symbol"	"1"
-			}
-			"4"
-			{
-				"name"		"Marlett"
-				"tall"		"13"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"symbol"	"1"
-			}
-			"5"
-			{
-				"name"		"Marlett"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1200 6000"
 				"symbol"	"1"
 			}
 		}
 
 		"ChatFont"
 		{
-			"isproportional" "only"
-//			"1"
-//			{
-//				"name"		"Renogare Soft XHud"
-//				"tall"		"15"
-//				"weight"	"0"
-//				"yres"		"480 1023"
-//				"dropshadow"	"1"
-//				"antialias"		"1"
-//			}
-//			"2"
-//			{
-//				"name"		"Renogare Soft XHud"
-//				"tall"		"17"
-//				"weight"	"0"
-//				"yres"		"1024 1199"
-//				"dropshadow"	"1"
-//				"antialias"		"1"
-//			}
-//			"3"
-//			{
-//				"name"		"Renogare Soft XHud"
-//				"tall"		"24"
-//				"weight"	"0"
-//				"yres"		"1200 1999"
-//				"dropshadow"	"1"
-//				"antialias"		"1"
-//			}
-			"4"
+			"1"
 			{
 				"name"		"Renogare Soft XHud"
 				"tall"		"8"
