@@ -80,6 +80,7 @@
 		"command"		"teamnotready"
 		"font"			"Size 10"
 		"proportionaltoparent"		"1"
+		"button_activation_type"	"1"
 	}
 
 	"TournamentReadyButton"
@@ -98,22 +99,9 @@
 		"command"		"teamready"
 		"font"			"Size 10"
 		"proportionaltoparent"		"1"
+		"button_activation_type"	"1"
 	}
 
 	"HudTournamentNameBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudTournamentNameBG"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"	"0"
-	}
-	"HudTournamentSetupBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"HudTournamentSetupBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
+	{"fieldName"		"HudTournamentNameBG"	"xpos"	"9999"}
 }

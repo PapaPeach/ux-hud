@@ -57,6 +57,7 @@
 			"labeltext"		"Game"
 			"actionsignallevel"		"2"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"

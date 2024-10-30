@@ -103,6 +103,7 @@
 		"textAlignment"		"west"
 		"actionsignallevel"		"1"
 		"proportionaltoparent"		"1"
+		"button_activation_type"	"2"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -255,6 +256,7 @@
 			"font"		"Symbols 22"
 			"textAlignment"		"center"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"Command"		"noti_hide"
 
@@ -379,6 +381,7 @@
 		"tall"		"23"
 		"visible"		"1"
 		"Command"		"OpenServerBrowser"
+		"button_activation_type"	"2"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -413,6 +416,7 @@
 			"font"		"Symbols 22"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -447,6 +451,7 @@
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -481,6 +486,7 @@
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -515,6 +521,7 @@
 			"font"		"Symbols 20"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -538,6 +545,7 @@
 		"tall"		"23"
 		"visible"		"1"
 		"Command"		"OpenOptionsDialog"
+		"button_activation_type"	"2"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -575,6 +583,7 @@
 			"font"		"Symbols 20"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -608,6 +617,7 @@
 			"visible"		"1"
 			"font"		"Symbols 22"
 			"textAlignment"		"center"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -644,6 +654,7 @@
 			"font"		"Symbols 20"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -680,6 +691,7 @@
 			"font"		"Symbols 22"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -716,6 +728,7 @@
 			"font"		"Symbols 20"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -752,6 +765,7 @@
 			"font"		"Symbols 22"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -785,6 +799,7 @@
 			"textAlignment"		"east"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -831,6 +846,7 @@
 				"command"	"toggle_collapse"
 				"textAlignment"	"east"
 				"proportionaltoparent"	"1"
+				"button_activation_type"	"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -847,13 +863,14 @@
 				"font"		"Symbols 26"
 				"labelText"		"}"
 				"textAlignment"		"south"
-				"textinsety"		"4"
+				"textinsety"		"0"
 				"use_proportional_insets"	"1"
 				"ypos"		"-195"
 				"wide"		"24"
 				"tall"		"24"
 				"visible"		"1"
 				"Command"		"url https://comfig.app/quickplay/?autostart=2"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -879,6 +896,7 @@
 				"tall"		"24"
 				"visible"		"1"
 				"Command"		"url https://comfig.app/quickplay/?autostart=1"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -959,6 +977,7 @@
 					"font"		"Size 10"
 					"command"	"toggle_collapse"
 					"textAlignment"	"center"
+					"button_activation_type"	"1"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -981,6 +1000,7 @@
 					"font"		"Size 10"
 					"command"	"toggle_collapse"
 					"textAlignment"	"center"
+					"button_activation_type"	"1"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -1005,6 +1025,7 @@
 					"tall"		"34"
 					"visible"		"1"
 					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=payload"
+					"button_activation_type"	"1"
 
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
@@ -1069,6 +1090,7 @@
 					"tall"		"34"
 					"visible"		"1"
 					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=koth"
+					"button_activation_type"	"1"
 
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
@@ -1133,6 +1155,7 @@
 					"tall"		"34"
 					"visible"		"1"
 					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=capture_point"
+					"button_activation_type"	"1"
 
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
@@ -1197,6 +1220,7 @@
 					"tall"		"34"
 					"visible"		"1"
 					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=attack_defense"
+					"button_activation_type"	"1"
 
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
@@ -1261,6 +1285,7 @@
 					"tall"		"34"
 					"visible"		"1"
 					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=payload_race"
+					"button_activation_type"	"1"
 
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
@@ -1325,6 +1350,7 @@
 					"tall"		"34"
 					"visible"		"1"
 					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=ctf"
+					"button_activation_type"	"1"
 
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
@@ -1389,6 +1415,7 @@
 					"tall"		"34"
 					"visible"		"1"
 					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=arena"
+					"button_activation_type"	"1"
 
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
@@ -1453,6 +1480,7 @@
 					"tall"		"34"
 					"visible"		"1"
 					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=alternative"
+					"button_activation_type"	"1"
 
 					"sound_depressed"		"UI/buttonclick.wav"
 					"sound_released"		"UI/buttonclickrelease.wav"
@@ -1563,6 +1591,7 @@
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1599,6 +1628,7 @@
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1635,6 +1665,7 @@
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1670,6 +1701,7 @@
 			"textAlignment"		"east"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1696,8 +1728,6 @@
 		"tall"		"23"
 		"visible"		"1"
 
-
-
 		"SubButton"
 		{
 			"ControlName"		"CExImageButton"
@@ -1711,6 +1741,7 @@
 			"textAlignment"		"east"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1748,6 +1779,7 @@
 			"textAlignment"		"east"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1784,6 +1816,7 @@
 			"textAlignment"		"east"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1824,6 +1857,7 @@
 			"textAlignment"		"west"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1862,6 +1896,7 @@
 			"textAlignment"		"west"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1900,6 +1935,7 @@
 			"textAlignment"		"west"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1932,6 +1968,7 @@
 			"labeltext"		""
 			"actionsignallevel"	"2"
 			"Command"		"engine cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1968,6 +2005,7 @@
 			"actionsignallevel"	"2"
 			"Command"		"engine cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 			"proportionaltoparent"		"1"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -2077,6 +2115,7 @@
 				"visible"		"1"
 				"Command"		"engine recsettings"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2102,6 +2141,7 @@
 				"visible"		"1"
 				"Command"		"engine usersettings"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2142,6 +2182,7 @@
 				"visible"		"1"
 				"Command"		"engine 16v16sb"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2167,6 +2208,7 @@
 				"visible"		"1"
 				"Command"		"engine 12v12sb"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2192,6 +2234,7 @@
 				"visible"		"1"
 				"Command"		"engine 9v9sb"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2217,6 +2260,7 @@
 				"visible"		"1"
 				"Command"		"engine 6v6sb"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2257,6 +2301,7 @@
 				"visible"		"1"
 				"Command"		"engine sbmedalson"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2282,6 +2327,7 @@
 				"visible"		"1"
 				"Command"		"engine sbmedalsoff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2322,6 +2368,7 @@
 				"visible"		"1"
 				"Command"		"engine upperbuilding"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2347,6 +2394,7 @@
 				"visible"		"1"
 				"Command"		"engine lowerbuilding"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2387,6 +2435,7 @@
 				"visible"		"1"
 				"Command"		"engine upperchat"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2412,6 +2461,7 @@
 				"visible"		"1"
 				"Command"		"engine lowerchat"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2452,6 +2502,7 @@
 				"visible"		"1"
 				"Command"		"engine shortchat"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2477,6 +2528,7 @@
 				"visible"		"1"
 				"Command"		"engine tallchat"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2517,6 +2569,7 @@
 				"visible"		"1"
 				"Command"		"engine lowhealth75"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2542,6 +2595,7 @@
 				"visible"		"1"
 				"Command"		"engine lowhealth50"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2582,6 +2636,7 @@
 				"visible"		"1"
 				"Command"		"engine playermodelon"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2607,6 +2662,7 @@
 				"visible"		"1"
 				"Command"		"engine playermodelauto"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2647,6 +2703,7 @@
 				"visible"		"1"
 				"Command"		"engine friendsliston;alias x_reload reloadhard"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2672,6 +2729,7 @@
 				"visible"		"1"
 				"Command"		"engine friendslistoff;alias x_reload reloadhard"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2712,6 +2770,7 @@
 				"visible"		"1"
 				"Command"		"engine teamindicatoron"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2737,6 +2796,7 @@
 				"visible"		"1"
 				"Command"		"engine teamindicatoroff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2777,6 +2837,7 @@
 				"visible"		"1"
 				"Command"		"engine ubertimeron"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2802,6 +2863,7 @@
 				"visible"		"1"
 				"Command"		"engine ubertimeroff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2842,6 +2904,7 @@
 				"visible"		"1"
 				"Command"		"engine freezecamitemson"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2867,6 +2930,7 @@
 				"visible"		"1"
 				"Command"		"engine freezecamitemsoff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2938,6 +3002,7 @@
 				"visible"		"1"
 				"Command"		"engine speedo2d;miniammooff;dmgammo"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2963,6 +3028,7 @@
 				"visible"		"1"
 				"Command"		"engine speedo3d;miniammooff;dmgammo"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -2988,6 +3054,7 @@
 				"visible"		"1"
 				"Command"		"engine speedooff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3028,6 +3095,7 @@
 				"visible"		"1"
 				"Command"		"engine miniammoon;speedooff;dmgammo"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3053,6 +3121,7 @@
 				"visible"		"1"
 				"Command"		"engine miniammooff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3093,6 +3162,7 @@
 				"visible"		"1"
 				"Command"		"engine dmgcenter;speedooff;miniammooff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3118,6 +3188,7 @@
 				"visible"		"1"
 				"Command"		"engine dmgammo"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3158,8 +3229,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine dmgred"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3182,8 +3254,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine dmgyellow"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3206,8 +3279,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine dmggreen"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3230,8 +3304,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine dmgblue"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3254,8 +3329,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine dmgpink"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3278,8 +3354,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine dmgwhite"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3302,8 +3379,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine dmgblack"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3328,8 +3406,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine dmgcustom"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3382,6 +3461,7 @@
 				"visible"		"1"
 				"Command"		"engine tvmoff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3407,6 +3487,7 @@
 				"visible"		"1"
 				"Command"		"engine tvm75"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3432,6 +3513,7 @@
 				"visible"		"1"
 				"Command"		"engine tvm60"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3457,6 +3539,7 @@
 				"visible"		"1"
 				"Command"		"engine tvm45"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3482,6 +3565,7 @@
 				"visible"		"1"
 				"Command"		"engine tvmleft"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3507,6 +3591,7 @@
 				"visible"		"1"
 				"Command"		"engine tvmright"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3534,6 +3619,7 @@
 				"fgcolor"		"White"
 				"Command"		"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ;echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;glow_outline_effect_enable;echo ;echo MATCH_THE_VALUE_OF_THESE;echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0;echo glow_outline_effect_enable 0"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3629,6 +3715,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkeron"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3654,6 +3741,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkeroff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3694,8 +3782,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkerred"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3718,8 +3807,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkeryellow"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3742,8 +3832,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkergreen"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3766,8 +3857,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkerblue"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3790,8 +3882,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkerpink"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3814,8 +3907,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkerwhite"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3838,8 +3932,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkerblack"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3864,8 +3959,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkercolorcustom;showconsole;echo;echo You can edit these settings through the associated customization files"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3908,8 +4004,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarker1"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3935,8 +4032,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarker2"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3962,8 +4060,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarker3"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3989,8 +4088,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarker4"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4016,8 +4116,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarker5"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4043,8 +4144,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarker6"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4070,8 +4172,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarker7"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4095,8 +4198,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine hitmarkerstylecustom;showconsole;echo;echo You can edit these settings through the associated customization files"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4135,6 +4239,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkersmall"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4160,6 +4265,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkermedium"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4185,6 +4291,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkerlarge"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4210,6 +4317,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkerfontcustom;showconsole;echo ;echo This will require a restart to take effect"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4250,6 +4358,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkeroutlineon"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4275,6 +4384,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkeroutlineoff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4315,6 +4425,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkery0"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4340,6 +4451,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkery1"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4365,6 +4477,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkery2"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4390,6 +4503,7 @@
 				"visible"		"1"
 				"Command"		"engine hitmarkery3"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4447,6 +4561,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairon"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4472,6 +4587,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairoff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4512,8 +4628,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshairred"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4536,8 +4653,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshairyellow"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4560,8 +4678,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshairgreen"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4584,8 +4703,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshairblue"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4608,8 +4728,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshairpink"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4632,8 +4753,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshairwhite"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4656,8 +4778,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshairblack"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4682,8 +4805,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshaircolorcustom;showconsole;echo;echo You can edit these settings through the associated customization files"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4726,8 +4850,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshair1"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4753,8 +4878,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshair2"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4780,8 +4906,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshair3"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4807,8 +4934,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshair4"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4834,8 +4962,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshair5"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4861,8 +4990,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshair6"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4888,8 +5018,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshair7"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4913,8 +5044,9 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"actionsignallevel"		"3"
 				"Command"		"engine crosshairstylecustom;showconsole;echo;echo You can edit these settings through the associated customization files"
+				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4953,6 +5085,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairsmall"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -4978,6 +5111,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairmedium"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5003,6 +5137,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairlarge"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5028,6 +5163,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairfontcustom;showconsole;echo ;echo This will require a restart to take effect"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5068,6 +5204,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairoutlineon"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5093,6 +5230,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairoutlineoff"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5133,6 +5271,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairy0"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5158,6 +5297,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairy1"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5183,6 +5323,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairy2"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5208,6 +5349,7 @@
 				"visible"		"1"
 				"Command"		"engine crosshairy3"
 				"actionsignallevel"		"3"
+				"button_activation_type"	"1"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -5252,6 +5394,7 @@
 			"visible"		"1"
 			"Command"		"engine sixense_clear_bindings;sixense_write_bindings _xhud_resolution_selection.txt;hud_reloadscheme;toggle mat_aaquality"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5281,6 +5424,7 @@
 			"visible"		"1"
 			"Command"		"engine alias writeover xhudreset"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5310,6 +5454,7 @@
 			"visible"		"1"
 			"Command"		"engine exec xhud"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5339,6 +5484,7 @@
 			"visible"		"1"
 			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;x_reload;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5410,6 +5556,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/16x9_3840x2160/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5438,6 +5585,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/16x9_2560x1440/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5466,6 +5614,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/16x9_1920x1080/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5494,6 +5643,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/16x9_1600x900/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5523,6 +5673,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/16x9_1366x768/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5568,6 +5719,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/4x3_1280x1024/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5596,6 +5748,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/4x3_1280x960/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5624,6 +5777,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/4x3_1024x768/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5669,6 +5823,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/16x10_2560x1600/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 			"mouseinputenabled"		"0"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -5698,6 +5853,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/16x10_1680x1050/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5726,6 +5882,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/16x10_1440x900/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5772,6 +5929,7 @@
 			"visible"		"1"
 			"Command"		"engine log_open;echo #base ../resolutions/make_your_own/override.res;con_logfile .x"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5800,6 +5958,7 @@
 			"labelText"		"Custom Resolution Guide"
 			"Command"		"url https://github.com/PapaPeach/xhud/wiki/Making-a-Custom-Resolution"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5828,6 +5987,7 @@
 			"visible"		"1"
 			"Command"		"engine exec xhud;exec xhud_generate;hud_reloadscheme;toggle mat_aaquality"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -5888,6 +6048,7 @@
 			"visible"		"1"
 			"Command"		"engine exec xhud"
 			"actionsignallevel"		"2"
+			"button_activation_type"	"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"

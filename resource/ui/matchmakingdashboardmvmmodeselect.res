@@ -20,85 +20,87 @@
 		"xpos"			"rs1"
 	}
 
-	"MannUpGroupBox"
+	"MannUpCustom"
 	{
-		"fieldName"		"MannUpGroupBox"
-		"xpos"		"p0.067"
-		"ypos"		"0"
-		"zpos"		"3"
+		"ControlName"	"CExButton"
+		"fieldName"		"MannUpCustom"
+		"xpos"			"p0.067"
 		"wide"		"p0.3333"
-		"tall"		"p0.4139"
-		"visible"	"1"
-		"enabled"	"1"
+		"tall"		"p0.2759"
+		"visible"		"1"
+		"labelText"		"#TF_MvM_MannUp"
+		"font"		"Size 28"
+		"textAlignment"		"center"
+		"Command"		"mannup"
+		"actionsignallevel"	"1"
 
-		"PlayNowButton"
-		{
-			"fieldName"		"PlayNowButton"
-			"zpos"			"20"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#TF_MvM_MannUp"
-			"font"			"Size 28"
-			"textAlignment"	"center"
-			"Command"		"mannup"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"		"0"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"MainTheme"
 
-			"paintbackground"		"0"
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"MainTheme"
-
-			"border"		"WhiteHighlightBorder"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-		}
+		"border_default"		"WhiteHighlightBorder"
+		"border_armed"		"FriendHighlightBorder"
 	}
 
-	"PracticeGroupBox"
+	"PracticeCustom"
 	{
-		"fieldName"		"PracticeGroupBox"
-		"zpos"		"3"
+		"ControlName"	"CExButton"
+		"fieldName"		"PracticeCustom"
 		"wide"		"p0.3333"
-		"tall"		"p0.4138"
-		"visible"	"1"
-		"enabled"	"1"
+		"tall"		"p0.2759"
+		"visible"		"1"
+		"labelText"		"#TF_MvM_BootCamp"
+		"font"		"Size 28"
+		"textAlignment"		"center"
+		"Command"		"bootcamp"
+		"actionsignallevel"	"1"
 
-		"pin_to_sibling"		"MannUpGroupBox"
-		"pin_corner_to_sibling"		"0"
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"		"0"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"MainTheme"
+
+		"border_default"		"WhiteHighlightBorder"
+		"border_armed"		"FriendHighlightBorder"
+
+		"pin_to_sibling"		"MannUpCustom"
 		"pin_to_sibling_corner"		"2"
-
-		"PracticeButton"
-		{
-			"fieldName"		"PracticeButton"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"20"
-			"tall"			"f0"
-			"wide"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#TF_MvM_BootCamp"
-			"font"			"Size 28"
-			"textAlignment"	"center"
-			"Command"		"bootcamp"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"MainTheme"
-
-			"border"		"WhiteHighlightBorder"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-		}
 	}
+
+	"Community"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Community"
+		"wide"		"p0.3333"
+		"tall"		"p0.2759"
+		"visible"		"1"
+		"labelText"		"Community Missions (Potato.tf)"
+		"font"		"Size 28"
+		"centerwrap"	"1"
+		"Command"		"url https://potato.tf/servers"
+		"actionsignallevel"	"1"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"		"0"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"MainTheme"
+
+		"border_default"		"WhiteHighlightBorder"
+		"border_armed"		"FriendHighlightBorder"
+
+		"pin_to_sibling"		"PracticeCustom"
+		"pin_to_sibling_corner"		"2"
+	}
+
+	"MannUpGroupBox"
+	{"fieldName"	"MannUpGroupBox"	"visible"	"0"}
+	"PracticeGroupBox"
+	{"fieldName"	"PracticeGroupBox"	"visible"	"0"}
 }
