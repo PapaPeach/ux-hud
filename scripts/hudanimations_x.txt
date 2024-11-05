@@ -16,7 +16,14 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 }
 
 event CompetitiveGame_LowerChatWindow{}	//plays at post-casual xp screen
-event HudTournament_MoveChatWindow{}
+event HudTournament_MoveChatWindow
+{
+	//PlaySound 0.0 "weapons/det_pack_timer.wav"
+	//PlaySound 0.5 "weapons/det_pack_timer.wav"
+	//PlaySound 1.0 "weapons/det_pack_timer.wav"
+	//PlaySound 1.5 "weapons/det_pack_timer.wav"
+	//PlaySound 2.0 "weapons/det_pack_timer.wav"
+}
 
 //==============================================================================
 
@@ -160,6 +167,7 @@ event HudMedicChargedStop
 event TeamStatus_PlayerDead
 {
 	SetVisible respawntime	1 0.0
+	//PlaySound 0 "weapons/det_pack_timer.wav"
 }
 
 event TeamStatus_PlayerAlive
@@ -187,27 +195,27 @@ event HudTournamentSetupPanelOpen
 	Animate HudTournamentSetup	xpos	c-90	Linear 0.0 0.001	//Fix wrong position
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
 
-	RunEventChild MainMenuOverride HudRecOpen 0.0
+	//RunEventChild MainMenuOverride HudRecOpen 0.0	//HudRec
 }
 
 event HudTournamentSetupPanelClose	//runs on setup menu initialization | runs on local map initialization
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 
-	RunEventChild MainMenuOverride HudRecClose 0.0
+	//RunEventChild MainMenuOverride HudRecClose 0.0	//HudRec
 }
 
 //HudRec V2
 event HudRecClose
 {
-	FireCommand 0.2 "engine echo ====================hudrec_close===================="
-	FireCommand 0.2 "engine hudrec_close"
-
+	FireCommand 0.01 "engine echo ====================hudrec_close===================="
+	FireCommand 0.01 "engine hudrec_close"
 }
+
 event HudRecOpen
 {
-	FireCommand 0.1 "engine echo ====================hudrec_open===================="
-	FireCommand 0.1 "engine hudrec_open"
+	FireCommand 0.01 "engine echo ====================hudrec_open===================="
+	FireCommand 0.01 "engine hudrec_open"
 }
 
 //==============================================================================

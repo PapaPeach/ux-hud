@@ -11,7 +11,6 @@
 		"tall"		"450"
 		"visible"		"1"
 		"enabled"		"1"
-		//"medal_width"		"0"
 		"avatar_width"		"28"
 		"spacer"			"3"
 		"name_width"		"150"

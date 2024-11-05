@@ -34,6 +34,7 @@ event HudCartAlarmPulse{}
 event HudCartAlarmPulseLoop{}
 event HudCartAlarmPulseStop{}
 event ActiveTimerBGPulse{}
+event TimerFlash{}	//runs on waiting for players and mp_timelimit timers
 event TeamsFullArrowAnimate{}
 event TeamsFullArrowAnimateLoop{}
 event TeamsFullArrowAnimateEnd{}
