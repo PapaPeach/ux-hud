@@ -122,7 +122,6 @@
 		"tall"		"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"PaintBackgroundType"	"1"
 		"bgcolor_override" "0 0 0 250"
 	}
 
