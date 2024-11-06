@@ -10,7 +10,7 @@
 		"zpos"		"9999"
 		"wide"		"f0"
 		"tall"		"f0"
-		"visible"		"1"
+		"visible"		"0"
 	}
 
 	"playlist"
