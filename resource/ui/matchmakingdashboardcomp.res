@@ -10,7 +10,7 @@
 		"zpos"			"9999"
 		"wide"			"p0.4"
 		"tall"			"f83"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 	}
 
