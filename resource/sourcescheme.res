@@ -337,14 +337,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"14"
-				"yres"		"480 1999"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"700"
-				"yres"		"2000 6000"
 			}
 		}
 
@@ -354,14 +346,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"14"
-				"yres"		"480 1999"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"17"
-				"weight"	"700"
-				"yres"		"2000 6000"
 			}
 		}
 
@@ -373,24 +357,6 @@ Scheme
 				"tall"		"16"
 				"weight"		"0"
 				"range"		"0x0000 0x017F"
-				"yres"		"480 767"
-			}
-			"2"
-			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"		"0"
-				"range"		"0x0000 0x017F"
-				"yres"		"768 1023"
-				"antialias"		"1"
-			}
-			"3"
-			{
-				"name"		"Tahoma"
-				"tall"		"19"
-				"weight"		"0"
-				"range"		"0x0000 0x017F"
-				"yres"		"1024 6000"
 				"antialias"		"1"
 			}
 		}
