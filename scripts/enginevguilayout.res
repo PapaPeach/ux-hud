@@ -22,7 +22,7 @@
 	{
 		"xpos"		"r500"
 		"wide"		"500"
-		"tall"		"f0"	//Default height is slightly less than the full view
+		"tall"		"f0"
 		"title"		"VGUI DrawTree"
 	}
 }
