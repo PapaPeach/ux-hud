@@ -210,7 +210,7 @@
 			"tall"		"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"mouseinputenabled" "1"
+			"mouseinputenabled"	"1"
 			"paintborder"	"0"
 
 			"items"
@@ -238,7 +238,7 @@
 			"zpos"		"2"
 			"wide"		"60"
 			"tall"		"30"
-			"mouseinputenabled" "0"
+			"mouseinputenabled"	"0"
 		}
 		"SquadSurplusTicketAd"
 		{
@@ -250,7 +250,7 @@
 			"tall"		"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"mouseinputenabled" "1"
+			"mouseinputenabled"	"1"
 			"paintborder"	"0"
 
 			"items"
@@ -278,7 +278,7 @@
 			"zpos"		"2"
 			"wide"		"60"
 			"tall"		"30"
-			"mouseinputenabled" "0"
+			"mouseinputenabled"	"0"
 		}
 		"SquadSurplusCheckButton"
 		{
@@ -290,6 +290,7 @@
 			"wide"		"25"
 			"tall"		"25"
 			"labelText"		""
+			"button_activation_type"	"1"
 		}
 		"ActivateSquadSurplusLabel"
 		{
@@ -419,7 +420,7 @@
 			"tall"		"93"
 			"visible"		"1"
 			"enabled"		"1"
-			"mouseinputenabled" "0"
+			"mouseinputenabled"	"0"
 			"image"		"pve/mvm_loot_image"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
@@ -465,10 +466,11 @@
 			"labelText"		"#TF_MvM_MannUpNow"
 			"font"		"Size 14"
 			"textAlignment"	"center"
-			"command" "mann_up_now"
+			"command"	"mann_up_now"
 			"defaultFgColor_override"	"White"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"button_activation_type"	"1"
 		}
 	}
 	"MvMSelectChallengeGroupBox"
@@ -523,7 +525,7 @@
 			"tall"		"60"
 			"visible"		"1"
 			"enabled"		"1"
-			"mouseinputenabled" "0"
+			"mouseinputenabled"	"0"
 			"image"		"../hud/mvm_tours"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"

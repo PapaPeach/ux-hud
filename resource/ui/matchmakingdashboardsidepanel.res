@@ -13,6 +13,7 @@
 		"labelText"		">"
 		"textAlignment"	"east"
 		"font"			"Size 28"
+		"button_activation_type"	"1"
 
 		"paintbackground"	"0"
 		"armedFgColor_override"	"MainTheme"
@@ -35,6 +36,7 @@
 		"labelText"		"<"
 		"textAlignment"	"east"
 		"font"			"Size 28"
+		"button_activation_type"	"1"
 
 		"paintbackground"	"0"
 		"armedFgColor_override"	"MainTheme"

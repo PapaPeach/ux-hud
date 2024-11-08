@@ -11,7 +11,7 @@
 		"enabled"		"1"
 		"image"		""
 		"scaleImage"	"1"
-		"proportionaltoparent" "1"
+		"proportionaltoparent"	"1"
 	}
 
 	"ScoreListScroller"
@@ -23,7 +23,7 @@
 		"wide"		"f0"
 		"tall"		"f0"
 		"visible"		"1"
-		"proportionaltoparent" "1"
+		"proportionaltoparent"	"1"
 		"asynchandling"		"hide"
 	}
 
@@ -34,13 +34,13 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
 		"zpos"		"1"
-		"wide"		"p0.75"
-		"tall"		"w1"
+		"wide"		"p0.5"
+		"tall"		"o1"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"animated/tf2_logo_hourglass"
 		"scaleImage"		"1"
-		"proportionaltoparent" "1"
+		"proportionaltoparent"	"1"
 		"asynchandling"		"show"
 	}
 }

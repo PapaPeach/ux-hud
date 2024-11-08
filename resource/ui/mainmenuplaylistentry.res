@@ -4,21 +4,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"6"
 		"wide"		"f0"
 		"tall"		"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%button_token%"
-		"textinsetx"	"0"
-		"use_proportional_insets" "1"
 		"font"		"Size 28"
 		"textAlignment"	"center"
 		"command"		"%button_command%"
-		"proportionaltoparent" "1"
+		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
+		"button_activation_type"	"1"
 
 		"border_default"	"WhiteHighlightBorder"
 		"border_armed"		"FriendHighlightBorder"
@@ -29,15 +26,13 @@
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"MainTheme"
-		"depressedFgColor_override" "MainTheme"
+		"depressedFgColor_override"	"MainTheme"
 	}
 
 	"MatchmakingBanPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MatchmakingBanPanel"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"10"
 		"wide"		"f0"
 		"tall"		"f0"
@@ -56,9 +51,6 @@
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"	"center"
 			"centerwrap"	"1"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"11"
 			"wide"		"f0"
 			"tall"		"f0"
 			"visible"		"1"
@@ -73,8 +65,6 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisabledIcon"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"49"
 		"wide"		"f0"
 		"tall"		"f0"
@@ -89,12 +79,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
+		"defaultFgColor_override"	"46 43 42 255"
+		"armedFgColor_override"	"235 226 202 255"
+		"depressedFgColor_override"	"46 43 42 255"
+		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"	"0 0 0 0"
+		"depressedBgColor_override"	"0 0 0 0"
 
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 140 140 255"
@@ -112,50 +102,7 @@
 			"enabled"		"1"
 			"image"		"locked_icon"
 			"scaleImage"	"1"
-			"proportionaltoparent" "1"
+			"proportionaltoparent"	"1"
 		}
-	}
-
-	"ModeImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ModeImage"
-		"xpos"		"9999"
-	}
-	"PlayListDropShadow"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayListDropShadow"
-		"xpos"		"9999"
-	}
-	"BGColor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGColor"
-		"xpos"		"9999"
-	}
-	"ToolTipHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipHack"
-		"xpos"		"9999"
-	}
-	"ToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipButtonHack"
-		"xpos"		"9999"
-	}
-	"DescLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabel"
-		"xpos"		"9999"
-	}
-	"DescLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabelShadow"
-		"xpos"		"9999"
 	}
 }

@@ -188,7 +188,26 @@
 		"TextAlignment"		"center"
 	}
 
+
+
 	//TF2 Stuff
+
+	"MainMenuOverride"
+	{
+		"ControlName"		"CHudMainMenuOverride"
+		"enabled"		"1"
+
+		"DashboardDimmer"
+		{
+			"ControlName"		"CDimmerButton"
+			"paintbackground"		"1"
+			"button_activation_type"	"1"
+		}
+
+		//Enable quick menu reload
+		"SteamFriendsList"{}
+		"ResolutionSelector"{}
+	}
 
 	HudWeaponAmmo
 	{

@@ -28,6 +28,7 @@
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
 			"labeltext"		""
+			"button_activation_type"	"1"
 
 			"paintbackground"	"0"
 			"border_default"	"NoBorder"
@@ -132,7 +133,7 @@
 		"ypos"		"17"
 		"wide"		"f0"
 		"tall"		"0"
-		"proportionaltoparent"	"1"		
+		"proportionaltoparent"	"1"
 		"bgcolor_override"	"BlackLight"
 		"autoresize"		"2"
 
@@ -156,7 +157,7 @@
 				"wide"		"o1"
 				"tall"		"50"
 				"image"		"casual\gametype_koth"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 			}
 
 			"KillsMedal"
@@ -169,7 +170,7 @@
 				"tall"		"10"
 				"zpos"		"100"
 				"image"		"competitive\competitive_coin_bronze"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 			}
 
 			"KillsLabel"
@@ -183,7 +184,7 @@
 				"proportionaltoparent"	"1"
 				"visible"		"1"
 				"mouseinputenabled"	"0"
-			
+
 				"labeltext"		"%stat_kills%"
 				"font"		"Size 10"
 				"fgcolor_override"	"White"
@@ -201,7 +202,7 @@
 				"proportionaltoparent"	"1"
 				"visible"		"1"
 				"mouseinputenabled"	"0"
-			
+
 				"labeltext"		"%stat_deaths%"
 				"font"		"Size 10"
 				"fgcolor_override"	"White"
@@ -218,7 +219,7 @@
 				"tall"		"10"
 				"zpos"		"100"
 				"image"		"competitive\competitive_coin_bronze"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 			}
 
 			"DamageLabel"
@@ -232,7 +233,7 @@
 				"proportionaltoparent"	"1"
 				"visible"		"1"
 				"mouseinputenabled"	"0"
-			
+
 				"labeltext"		"%stat_damage%"
 				"font"		"Size 10"
 				"fgcolor_override"	"White"
@@ -249,7 +250,7 @@
 				"tall"		"10"
 				"zpos"		"100"
 				"image"		"competitive\competitive_coin_bronze"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 			}
 
 			"HealingLabel"
@@ -263,7 +264,7 @@
 				"proportionaltoparent"	"1"
 				"visible"		"1"
 				"mouseinputenabled"	"0"
-			
+
 				"labeltext"		"%stat_healing%"
 				"font"		"Size 10"
 				"fgcolor_override"	"White"
@@ -280,7 +281,7 @@
 				"tall"		"10"
 				"zpos"		"100"
 				"image"		"competitive\competitive_coin_bronze"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 			}
 
 			"SupportLabel"
@@ -294,7 +295,7 @@
 				"proportionaltoparent"	"1"
 				"visible"		"1"
 				"mouseinputenabled"	"0"
-			
+
 				"labeltext"		"%stat_support%"
 				"font"		"Size 10"
 				"fgcolor_override"	"White"
@@ -311,7 +312,7 @@
 				"tall"		"10"
 				"zpos"		"100"
 				"image"		"competitive\competitive_coin_bronze"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 			}
 
 			"ScoreLabel"
@@ -325,7 +326,7 @@
 				"proportionaltoparent"	"1"
 				"visible"		"1"
 				"mouseinputenabled"	"0"
-			
+
 				"labeltext"		"%stat_score%"
 				"font"		"Size 10"
 				"fgcolor_override"	"White"
@@ -341,7 +342,7 @@
 				"wide"		"o1"
 				"tall"		"30"
 				"zpos"		"1"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 
 				"ScoutIcon"
 				{
@@ -352,7 +353,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_scout"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"PyroIcon"
@@ -364,7 +365,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_pyro"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"SoldierIcon"
@@ -376,7 +377,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_soldier"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"DemoIcon"
@@ -388,7 +389,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_demo"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"HeavyIcon"
@@ -400,7 +401,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_heavy"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"EngineerIcon"
@@ -412,7 +413,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_engineer"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"MedicIcon"
@@ -424,7 +425,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_medic"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"SniperIcon"
@@ -436,7 +437,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_sniper"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 
 				"SpyIcon"
@@ -448,7 +449,7 @@
 					"wide"		"o1"
 					"tall"		"p0.34"
 					"image"		"class_icons/filter_spy"
-					"proportionaltoparent"	"1"	
+					"proportionaltoparent"	"1"
 				}
 			}
 		}

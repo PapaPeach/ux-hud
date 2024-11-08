@@ -11,6 +11,13 @@
 		"wide"		"f0"
 		"tall"		"480"
 
+		"DashboardDimmer"
+		{
+			"ControlName"		"CDimmerButton"
+			"paintbackground"		"1"
+			"button_activation_type"	"1"
+		}
+
 		"SaxxySettings"
 		{"xpos"	"9999"}
 	}
@@ -307,60 +314,49 @@
 		}
 	}
 
-	"FriendsContainer"
+	"SteamFriendsList"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldname"		"FriendsContainer"
+		"ControlName"		"CSteamFriendsListPanel"
+		"fieldname"		"SteamFriendsList"
 		"xpos"		"153"
 		"ypos"		"220"
 		"zpos"		"5"
 		"wide"		"140"
 		"tall"		"165"
-		"border"		"NoBorder"
+		"proportionaltoparent"		"1"
 
-		"SteamFriendsList"
+		"columns_count"		"1"
+		"inset_x"		"2"
+		"inset_y"		"0"
+		"row_gap"		"4"
+		"column_gap"		"10"
+		"restrict_width"		"0"
+
+		"friendpanel_kv"
 		{
-			"ControlName"		"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
-			"zpos"		"500"
-			"wide"		"f0"
+			"wide"		"130"
+			"tall"		"20"
+		}
+
+		"ScrollBar"
+		{
+			"ControlName"		"ScrollBar"
+			"FieldName"		"ScrollBar"
+			"xpos"		"0"
 			"tall"		"f0"
-			"visible"		"1"
+			"wide"		"3"
+			"zpos"		"999"
+			"nobuttons"		"1"
 			"proportionaltoparent"		"1"
 
-			"columns_count"		"1"
-			"inset_x"		"2"
-			"inset_y"		"0"
-			"row_gap"		"4"
-			"column_gap"		"10"
-			"restrict_width"		"0"
-
-			"friendpanel_kv"
+			"Slider"
 			{
-				"wide"		"130"
-				"tall"		"20"
+				"fgcolor_override"		"White"
 			}
-
-			"ScrollBar"
-			{
-				"ControlName"		"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"		"0"
-				"tall"		"f0"
-				"wide"		"3"
-				"zpos"		"999"
-				"nobuttons"		"1"
-				"proportionaltoparent"		"1"
-
-				"Slider"
-				{
-					"fgcolor_override"		"White"
-				}
-				"UpButton"
-				{"visible"	"0"}
-				"DownButton"
-				{"visible"	"0"}
-			}
+			"UpButton"
+			{"visible"	"0"}
+			"DownButton"
+			{"visible"	"0"}
 		}
 	}
 
@@ -2701,7 +2697,7 @@
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine friendsliston;alias x_reload reloadhard"
+				"Command"		"engine friendsliston"
 				"actionsignallevel"		"3"
 				"button_activation_type"	"1"
 
@@ -2727,7 +2723,7 @@
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine friendslistoff;alias x_reload reloadhard"
+				"Command"		"engine friendslistoff"
 				"actionsignallevel"		"3"
 				"button_activation_type"	"1"
 
@@ -5392,7 +5388,7 @@
 			"wide"		"284"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine sixense_clear_bindings;sixense_write_bindings _xhud_resolution_selection.txt;hud_reloadscheme;toggle mat_aaquality"
+			"Command"		"engine sixense_clear_bindings;sixense_write_bindings _xhud_resolution_selection.txt;hud_reloadscheme;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"2"
 
@@ -5482,7 +5478,7 @@
 			"wide"		"284"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;x_reload;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
+			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;hud_reloadscheme;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"2"
 
@@ -5508,7 +5504,6 @@
 		"zpos"		"12000"
 		"wide"		"f0"
 		"tall"		"f0"
-		"enabled"	"1"
 		"bgcolor_override"		"GrayDarkest"
 
 		"ResolutionSelectLabel"
@@ -5985,7 +5980,7 @@
 			"wide"		"288"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine exec xhud;exec xhud_generate;hud_reloadscheme;toggle mat_aaquality"
+			"Command"		"engine exec xhud;exec xhud_generate;hud_reloadscheme"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 

@@ -33,6 +33,7 @@
 		"textAlignment"		"center"
 		"Command"		"mannup"
 		"actionsignallevel"	"1"
+		"button_activation_type"	"1"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -57,6 +58,7 @@
 		"textAlignment"		"center"
 		"Command"		"bootcamp"
 		"actionsignallevel"	"1"
+		"button_activation_type"	"1"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -84,6 +86,7 @@
 		"centerwrap"	"1"
 		"Command"		"url https://potato.tf/servers"
 		"actionsignallevel"	"1"
+		"button_activation_type"	"1"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"

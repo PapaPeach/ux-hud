@@ -16,14 +16,7 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 }
 
 event CompetitiveGame_LowerChatWindow{}	//plays at post-casual xp screen
-event HudTournament_MoveChatWindow
-{
-	//PlaySound 0.0 "weapons/det_pack_timer.wav"
-	//PlaySound 0.5 "weapons/det_pack_timer.wav"
-	//PlaySound 1.0 "weapons/det_pack_timer.wav"
-	//PlaySound 1.5 "weapons/det_pack_timer.wav"
-	//PlaySound 2.0 "weapons/det_pack_timer.wav"
-}
+event HudTournament_MoveChatWindow{}
 
 //==============================================================================
 
@@ -208,8 +201,8 @@ event HudTournamentSetupPanelClose	//runs on setup menu initialization | runs on
 //HudRec V2
 event HudRecClose
 {
-	FireCommand 0.01 "engine echo ====================hudrec_close===================="
-	FireCommand 0.01 "engine hudrec_close"
+	FireCommand 0.1 "engine echo ====================hudrec_close===================="
+	FireCommand 0.1 "engine hudrec_close"
 }
 
 event HudRecOpen
@@ -298,5 +291,5 @@ event CompetitiveGame_ShowPvPRankPanel
 
 event IntroMovieContinueBlinkStop
 {
-	FireCommand 0.0 "skip"
+	FireCommand 0.0 "skip"	//Map intro skip
 }

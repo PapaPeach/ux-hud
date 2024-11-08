@@ -61,6 +61,7 @@
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
 			"font"		"Size 16"
 			"textAlignment"	"center"
+			"button_activation_type"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -89,6 +90,7 @@
 			"labeltext"		"#TF_Competitive_ViewMatches"
 			"font"		"Size 16"
 			"textAlignment"	"center"
+			"button_activation_type"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -138,10 +140,11 @@
 					"fgcolor_override"	"White"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
+					"button_activation_type"	"1"
 
-					"defaultFgColor_override" "White"
+					"defaultFgColor_override"	"White"
 					"armedFgColor_override"	"MainTheme"
-					"selectedFgColor_override" "MainTheme"
+					"selectedFgColor_override"	"MainTheme"
 
 					"command"	"sort0"
 					"actionsignallevel"	"4"
@@ -167,10 +170,11 @@
 					"fgcolor_override"	"White"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
+					"button_activation_type"	"1"
 
-					"defaultFgColor_override" "White"
+					"defaultFgColor_override"	"White"
 					"armedFgColor_override"	"MainTheme"
-					"selectedFgColor_override" "MainTheme"
+					"selectedFgColor_override"	"MainTheme"
 
 					"command"	"sort1"
 					"actionsignallevel"	"4"
@@ -217,7 +221,7 @@
 					"mouseinputenabled"	"0"
 				}
 
-				"SortArrow"
+				"SortArrow"	//Breaks history if removed
 				{
 					"ControlName"	"Label"
 					"visible"	"0"
@@ -234,7 +238,7 @@
 				"tall"		"f34"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"restrict_width" "0"
+				"restrict_width"	"0"
 
 				"ScrollBar"
 				{
@@ -271,7 +275,7 @@
 				"tall"		"f19"
 				"visible"		"0"
 				"enabled"		"1"
-				"mouseinputenabled" "1"
+				"mouseinputenabled"	"1"
 				"scaleImage"	"1"
 				"entry_step"	"22"
 				"proportionaltoparent"	"1"

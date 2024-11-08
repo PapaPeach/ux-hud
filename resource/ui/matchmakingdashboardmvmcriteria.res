@@ -61,6 +61,7 @@
 		"labeltext"		"#TF_Matchmaking_Back"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
+		"button_activation_type"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -96,6 +97,7 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"button_activation_type"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -127,6 +129,7 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"button_activation_type"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -157,6 +160,7 @@
 		"labeltext"		"#TF_MvM_SelectChallenge"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
+		"button_activation_type"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -181,6 +185,7 @@
 		"labelText"		""
 		"proportionaltoparent"	"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"button_activation_type"	"1"
 	}
 
 	"JoinLateLabel"

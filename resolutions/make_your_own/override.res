@@ -21,7 +21,9 @@
 		"HealthBonusPosAdj"	"REPLACE THIS"		//[+/-1]=VALUE FROM HudPlayerHealth*(14/81)
 	}
 
-	//DON'T EDIT THIS
+	//DON'T EDIT THESE
 	"ResolutionSelector"
 	{"visible"	"0"}
+	"MainMenuOverride"
+	{"ResolutionSelector"{"visible"	"0"}}
 }

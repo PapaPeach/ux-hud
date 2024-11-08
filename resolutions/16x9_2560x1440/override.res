@@ -25,4 +25,12 @@
 	{
 		"visible"	"0"
 	}
+
+	"MainMenuOverride"
+	{
+		"ResolutionSelector"
+		{
+			"visible"	"0"
+		}
+	}
 }
