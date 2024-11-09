@@ -202,6 +202,8 @@
 			"ControlName"		"CDimmerButton"
 			"paintbackground"		"1"
 			"button_activation_type"	"1"
+			"defaultBgColor_override"	"0 0 0 150"
+			"armedBgColor_override"		"0 0 0 150"
 		}
 
 		//Enable quick menu reload

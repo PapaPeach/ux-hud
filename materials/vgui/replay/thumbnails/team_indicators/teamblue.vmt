@@ -1,9 +1,9 @@
 "UnlitGeneric"
 {
-	"$translucent" "1"
+	"$alphatest" "1"
+	"$alphatestreference" "0.2"
 	"$baseTexture" "vgui\replay\thumbnails\menu\Xloading"
 	"$vertexalpha" "1"
-	"$vertexcolor" "1"
 	"$ignorez" "1"
 
 	"$angle" "45.0"
