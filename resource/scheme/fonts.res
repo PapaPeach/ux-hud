@@ -4,6 +4,7 @@ Scheme
 	{
 		"Size 7"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -14,6 +15,7 @@ Scheme
 		}
 		"Size 8"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -24,6 +26,7 @@ Scheme
 		}
 		"Size 9 Lines"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Uber"
@@ -34,6 +37,7 @@ Scheme
 		}
 		"Size 10"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -44,6 +48,7 @@ Scheme
 		}
 		"Size 10 Uber"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Uber"
@@ -54,6 +59,7 @@ Scheme
 		}
 		"Size 11"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -64,6 +70,7 @@ Scheme
 		}
 		"Size 12"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -74,6 +81,7 @@ Scheme
 		}
 		"Size 14"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -84,6 +92,7 @@ Scheme
 		}
 		"Size 16"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -94,6 +103,7 @@ Scheme
 		}
 		"Size 16 Uber"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Uber"
@@ -105,6 +115,7 @@ Scheme
 		}
 		"Size 18 Uber"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Uber"
@@ -116,6 +127,7 @@ Scheme
 		}
 		"Size 20"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -126,6 +138,7 @@ Scheme
 		}
 		"Size 24"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -136,6 +149,7 @@ Scheme
 		}
 		"Size 24 Damage"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Uber"
@@ -147,6 +161,7 @@ Scheme
 		}
 		"Size 24 Uber"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Uber"
@@ -158,6 +173,7 @@ Scheme
 		}
 		"Size 28"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -168,6 +184,7 @@ Scheme
 		}
 		"Size 30"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -178,6 +195,7 @@ Scheme
 		}
 		"Size 40"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -188,6 +206,7 @@ Scheme
 		}
 		"Size 42"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -199,6 +218,7 @@ Scheme
 
 		"Size 8 Shadow"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -210,6 +230,7 @@ Scheme
 		}
 		"Size 12 Shadow"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -221,6 +242,7 @@ Scheme
 		}
 		"Size 16 Shadow"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -232,6 +254,7 @@ Scheme
 		}
 		"Size 20 Shadow"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -243,6 +266,7 @@ Scheme
 		}
 		"Size 28 Shadow"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -254,6 +278,7 @@ Scheme
 		}
 		"Size 42 Shadow"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -266,6 +291,7 @@ Scheme
 
 		"Symbols 14"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Hypnotize Icons X3"
@@ -276,6 +302,7 @@ Scheme
 		}
 		"Symbols 18"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Hypnotize Icons X3"
@@ -286,6 +313,7 @@ Scheme
 		}
 		"Symbols 20"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Hypnotize Icons X3"
@@ -296,6 +324,7 @@ Scheme
 		}
 		"Symbols 22"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Hypnotize Icons X3"
@@ -306,6 +335,7 @@ Scheme
 		}
 		"Symbols 24"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Hypnotize Icons X3"
@@ -316,6 +346,7 @@ Scheme
 		}
 		"Symbols 26"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Hypnotize Icons X3"
@@ -327,6 +358,7 @@ Scheme
 
 		"Class Symbols 24"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"TF2 Class Icons V2"
@@ -337,6 +369,7 @@ Scheme
 		}
 		"Class Symbols 36"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"TF2 Class Icons V2"
@@ -348,6 +381,7 @@ Scheme
 
 		"ReadyUp 24"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"ReadyUp XHud"
@@ -359,6 +393,7 @@ Scheme
 
 		"CrosshairS1"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"TF2Crosshairs"
@@ -369,6 +404,7 @@ Scheme
 		}
 		"CrosshairS0"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"TF2Crosshairs"
@@ -378,6 +414,7 @@ Scheme
 		}
 		"CrosshairM1"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"TF2Crosshairs"
@@ -388,6 +425,7 @@ Scheme
 		}
 		"CrosshairM0"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"TF2Crosshairs"
@@ -397,6 +435,7 @@ Scheme
 		}
 		"CrosshairL1"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"TF2Crosshairs"
@@ -407,6 +446,7 @@ Scheme
 		}
 		"CrosshairL0"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"TF2Crosshairs"
@@ -417,6 +457,7 @@ Scheme
 
 		"Default"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -433,6 +474,7 @@ Scheme
 		}
 		"DefaultVerySmall"		//Slider numbers
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -446,6 +488,7 @@ Scheme
 
 		CenterPrintText
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -457,6 +500,7 @@ Scheme
 		}
 		HudHintText
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -468,6 +512,7 @@ Scheme
 		}
 		"SpectatorVerySmall"		//Player outline name
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -480,6 +525,7 @@ Scheme
 		//TODO: FILTER FROM HERE DOWN (7/3/22 most recent)
 		"HudFontGiant"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -492,6 +538,7 @@ Scheme
 
 		"HudFontBiggerBold"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -504,6 +551,7 @@ Scheme
 
 		"HudFontBig"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -515,6 +563,7 @@ Scheme
 		}
 		"HudFontMediumBigBold"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -526,6 +575,7 @@ Scheme
 		}
 		"HudFontMedium"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -537,6 +587,7 @@ Scheme
 		}
 		"HudFontMediumSecondary"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"		"Renogare Soft XHud"
@@ -548,6 +599,7 @@ Scheme
 		}
 		"HudFontMediumBold"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -559,6 +611,7 @@ Scheme
 		}
 		"HudFontMediumSmallBold"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -570,6 +623,7 @@ Scheme
 		}
 		"HudFontMediumSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -581,6 +635,7 @@ Scheme
 		}
 		"HudFontSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -592,6 +647,7 @@ Scheme
 		}
 		"HudFontSmallishBold"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -603,6 +659,7 @@ Scheme
 		}
 		"HudFontSmallBold"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -614,6 +671,7 @@ Scheme
 		}
 		"HudFontSmallest"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -625,6 +683,7 @@ Scheme
 		}
 		"HudFontSmallestBold"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -636,6 +695,7 @@ Scheme
 		}
 		"StorePromotionsTitle"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -647,6 +707,7 @@ Scheme
 		}
 		"FontStorePrice"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -658,6 +719,7 @@ Scheme
 		}
 		"FontStoreOriginalPrice"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -669,6 +731,7 @@ Scheme
 		}
 		"FontStorePriceSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Verdana"
@@ -680,6 +743,7 @@ Scheme
 		}
 		"ClockSubTextTiny"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -691,6 +755,7 @@ Scheme
 		}
 		"HudSelectionText"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -702,6 +767,7 @@ Scheme
 		}
 		DebugOverlay
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Courier New"
@@ -713,6 +779,7 @@ Scheme
 		}
 		TFTypeDeath
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"tfd"	// tfd.ttf
@@ -725,6 +792,7 @@ Scheme
 
 		Icons
 		{
+			"isproportional"	"only"
 			"1"
 			 {
 				"name"	"Team Fortress"	// tf.ttf
@@ -736,6 +804,7 @@ Scheme
 		}
 		"CloseCaption_Normal"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -748,6 +817,7 @@ Scheme
 		// this is the symbol font
 		"Marlett"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Marlett"
@@ -759,6 +829,7 @@ Scheme
 		}
 		"MarlettSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Marlett"
@@ -770,6 +841,7 @@ Scheme
 		}
 		"MenuMainTitle"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -781,6 +853,7 @@ Scheme
 
 		"ChalkboardTitle"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -792,6 +865,7 @@ Scheme
 		}
 		"ScoreboardSmallest"		//Player connecting?
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Verdana"
@@ -803,6 +877,7 @@ Scheme
 		}
 		"ScoreboardVerySmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -814,6 +889,7 @@ Scheme
 		}
 		"ScoreboardSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -825,6 +901,7 @@ Scheme
 		}
 		"ScoreboardMediumSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -837,6 +914,7 @@ Scheme
 		}
 		"ScoreboardMedium"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -849,6 +927,7 @@ Scheme
 		}
 		"ScoreboardTeamName"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -861,6 +940,7 @@ Scheme
 		}
 		"ScoreboardTeamScore"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -872,6 +952,7 @@ Scheme
 		}
 		"MatchSummaryTeamScores"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -884,6 +965,7 @@ Scheme
 		}
 		"MatchSummaryStatsAndMedals"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -895,6 +977,7 @@ Scheme
 		}
 		"MatchSummaryWinner"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -906,6 +989,7 @@ Scheme
 		}
 		"CompMatchStartTeamNames"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -918,6 +1002,7 @@ Scheme
 
 		MenuSmallestFont
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Arial Black"
@@ -930,6 +1015,7 @@ Scheme
 
 		MenuSmallFont
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -942,6 +1028,7 @@ Scheme
 
 		TFFontSmall
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -953,6 +1040,7 @@ Scheme
 		}
 		TFFontMedium
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -964,6 +1052,7 @@ Scheme
 		}
 		MatchmakingDialogMenuLarge
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -973,6 +1062,7 @@ Scheme
 		}
 		MatchmakingDialogMenuSmall
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -982,6 +1072,7 @@ Scheme
 		}
 		"ItemFontNameSmallest"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -993,6 +1084,7 @@ Scheme
 		}
 		"ItemFontNameLarge"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1004,6 +1096,7 @@ Scheme
 		}
 		"ItemFontNameLarger"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1015,6 +1108,7 @@ Scheme
 		}
 		"ItemFontAttribSmallest"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1026,6 +1120,7 @@ Scheme
 		}
 		"ItemFontAttribSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1037,6 +1132,7 @@ Scheme
 		}
 		"ItemFontAttribLarge"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1049,6 +1145,7 @@ Scheme
 
 		"AchievementTracker_Name"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1060,6 +1157,7 @@ Scheme
 		}
 		"AchievementTracker_NameGlow"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1072,6 +1170,7 @@ Scheme
 		}
 		"AchievementTracker_Desc"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1083,6 +1182,7 @@ Scheme
 		}
 		"QuestObjectiveTracker_Desc"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1094,6 +1194,7 @@ Scheme
 		}
 		"QuestObjectiveTracker_DescGlow"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1104,6 +1205,7 @@ Scheme
 		}
 		"QuestObjectiveTracker_DescBlur"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1116,6 +1218,7 @@ Scheme
 		}
 		"ItemTrackerScore_InGame"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1127,6 +1230,7 @@ Scheme
 
 		"QuestFlavorText"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1139,6 +1243,7 @@ Scheme
 
 		"QuestObjectiveText"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1151,6 +1256,7 @@ Scheme
 
 		"QuestLargeText"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1163,6 +1269,7 @@ Scheme
 
 		"QuestStickyText"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1175,6 +1282,7 @@ Scheme
 
 		"QuestInstructionText_Merasmus"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1187,6 +1295,7 @@ Scheme
 
 		"QuestFlavorText_Merasmus"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1200,6 +1309,7 @@ Scheme
 
 		"QuestObjectiveText_Merasmus"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1212,6 +1322,7 @@ Scheme
 
 		"QuestMediumText_Merasmus"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1224,6 +1335,7 @@ Scheme
 
 		"QuestLargeText_Merasmus"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1270,6 +1382,7 @@ Scheme
 
 		"TradeUp_Text"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1282,6 +1395,7 @@ Scheme
 
 		"TradeUp_Quote"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Trebuchet MS"
@@ -1298,6 +1412,7 @@ Scheme
 		//
 		"ReplayBrowserSmallest"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1313,6 +1428,7 @@ Scheme
 		//
 		"EconFontSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1324,6 +1440,7 @@ Scheme
 		}
 		"EconFontMedium"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1336,6 +1453,7 @@ Scheme
 
 		"MMenuPlayListDesc"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1348,6 +1466,7 @@ Scheme
 
 		"MapVotesPercentage"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1361,6 +1480,7 @@ Scheme
 
 		"QuestMap_Small_Blur"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1374,6 +1494,7 @@ Scheme
 
 		"QuestMap_Small"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1386,6 +1507,7 @@ Scheme
 
 		"QuestMap_Medium"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1398,6 +1520,7 @@ Scheme
 
 		"QuestMap_Large"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -1410,6 +1533,7 @@ Scheme
 
 		"QuestMap_Huge"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"

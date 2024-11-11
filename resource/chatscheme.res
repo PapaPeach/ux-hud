@@ -203,6 +203,7 @@ Scheme
 
 		"Default"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"		"Renogare Soft XHud"
@@ -216,7 +217,7 @@ Scheme
 		// this is the symbol font
 		"Marlett"
 		{
-
+			"isproportional"	"only"
 			"1"
 			{
 				"name"		"Marlett"
@@ -228,6 +229,7 @@ Scheme
 
 		"MarlettSmall"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"		"Marlett"
@@ -239,6 +241,7 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional"	"only"
 			"1"
 			{
 				"name"		"Renogare Soft XHud"

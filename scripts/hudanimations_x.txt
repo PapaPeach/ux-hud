@@ -1,6 +1,11 @@
 event CollectionCrafting_ItemRecieved	//Fix trade-up background (wiethoofd)
 {
 	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
+	//PlaySound 0.0 "weapons/det_pack_timer.wav"
+	//PlaySound 0.5 "weapons/det_pack_timer.wav"
+	//PlaySound 1.0 "weapons/det_pack_timer.wav"
+	//PlaySound 1.5 "weapons/det_pack_timer.wav"
+	//PlaySound 2.0 "weapons/det_pack_timer.wav"
 }
 
 event SurveyShowSequence	//Yeet this
@@ -16,7 +21,24 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 }
 
 event CompetitiveGame_LowerChatWindow{}	//plays at post-casual xp screen
-event HudTournament_MoveChatWindow{}
+event HudTournament_MoveChatWindow
+{
+	//PlaySound 0.0 "weapons/det_pack_timer.wav"
+	//PlaySound 0.5 "weapons/det_pack_timer.wav"
+	//PlaySound 1.0 "weapons/det_pack_timer.wav"
+	//PlaySound 1.5 "weapons/det_pack_timer.wav"
+	//PlaySound 2.0 "weapons/det_pack_timer.wav"
+}
+
+event DashboardDimmerReload
+{
+	RunEventChild MainMenuOverride ReloadHUD 0.001
+}
+
+event ReloadHUD
+{
+	FireCommand 0.0 "engine hud_reloadscheme"
+}
 
 //==============================================================================
 
