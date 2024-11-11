@@ -32,18 +32,18 @@ event HudTournament_MoveChatWindow
 
 event DashboardDimmerReload
 {
-    RunEventChild MainMenuOverride FixDimmer 0
+	RunEventChild MainMenuOverride FixDimmer 0
 }
 
 event FixDimmer
 {
-    RunEventChild MMDashboard LoadDimmer 0.001
-    FireCommand 0.003 "engine hud_reloadscheme"
+	RunEventChild MMDashboard LoadDimmer 0.001
+	FireCommand 0.003 "engine hud_reloadscheme"
 }
 
 event LoadDimmer
 {
-    FireCommand 0 "dimmer_clicked"
+	FireCommand 0 "dimmer_clicked"
 }
 
 //==============================================================================
