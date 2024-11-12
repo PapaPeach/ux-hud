@@ -518,7 +518,7 @@
 		"paintborder"	"1"
 
 		"pin_to_sibling"		"TauntModelPanel3"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		"model_ypos"	"1"

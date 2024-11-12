@@ -1301,7 +1301,7 @@
 		"fillcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"BarChartComboA"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 	"TipImage"

@@ -23,7 +23,7 @@
 			"fgcolor"		"White"
 			"textAlignment"		"east"
 			"proportionaltoparent"	"1"
-		}	
+		}
 	}
 	"StopWatchScoreToBeat"
 	{
@@ -40,7 +40,7 @@
 		"auto_wide_tocontents"		"1"
 
 		"pin_to_sibling"		"ObjectiveStatusTimePanel"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"StopWatchPointsLabel"
@@ -58,7 +58,7 @@
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"StopWatchScoreToBeat"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"StopWatchDivider"
@@ -75,7 +75,7 @@
 		"textAlignment"		"center"
 
 		"pin_to_sibling"		"ObjectiveStatusTimePanel"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 

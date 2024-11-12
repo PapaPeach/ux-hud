@@ -109,7 +109,7 @@
 
 			"pin_to_sibling"		"BlueTeamScore"
 			"pin_corner_to_sibling"		"1"
-			"pin_to_sibling_corner"		"0"
+			//"pin_to_sibling_corner"		"0"
 		}
 		"BlueTeamScore"
 		{
@@ -142,7 +142,7 @@
 			"fgcolor"		"White"
 
 			"pin_to_sibling"		"RedTeamScore"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"RedTeamScore"
@@ -266,7 +266,7 @@
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"Player1Name"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"Player1Score"
@@ -312,7 +312,7 @@
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"Player2Name"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"Player2Score"
@@ -357,7 +357,7 @@
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"Player3Name"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"Player3Score"
@@ -453,7 +453,7 @@
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"KillStreakPlayer1Name"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"KillStreakPlayer1Score"

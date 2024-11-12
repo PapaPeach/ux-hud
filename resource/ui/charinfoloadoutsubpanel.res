@@ -57,7 +57,7 @@
 
 		"pin_to_sibling"		"soldierCustom"
 		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"0"
+		//"pin_to_sibling_corner"	"0"
 	}
 	"soldierCustom"
 	{
@@ -87,7 +87,7 @@
 
 		"pin_to_sibling"		"pyroCustom"
 		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"0"
+		//"pin_to_sibling_corner"	"0"
 	}
 	"pyroCustom"
 	{
@@ -117,7 +117,7 @@
 
 		"pin_to_sibling"		"demomanCustom"
 		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"0"
+		//"pin_to_sibling_corner"	"0"
 	}
 	"demomanCustom"
 	{
@@ -147,7 +147,7 @@
 
 		"pin_to_sibling"		"heavyweaponsCustom"
 		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"0"
+		//"pin_to_sibling_corner"	"0"
 	}
 	"heavyweaponsCustom"
 	{
@@ -203,7 +203,7 @@
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"heavyweaponsCustom"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
 	}
 	"medicCustom"
@@ -233,7 +233,7 @@
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"engineerCustom"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
 	}
 	"sniperCustom"
@@ -263,7 +263,7 @@
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"medicCustom"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
 	}
 	"spyCustom"
@@ -293,7 +293,7 @@
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"sniperCustom"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
 	}
 	"ShowBackpackButton"
@@ -339,7 +339,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"		"ShowBackpackButton"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 	}
 	"ShowTradeButton"
@@ -364,7 +364,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"		"ShowCraftingButton"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 	}
 	"ShowPaintkitsButton"
@@ -389,7 +389,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"		"ShowTradeButton"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 	}
 	"ClassLabel"

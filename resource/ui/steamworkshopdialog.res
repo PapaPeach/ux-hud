@@ -571,7 +571,7 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel1"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 
@@ -1856,7 +1856,7 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel2"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 
@@ -1990,7 +1990,7 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel3"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 

@@ -54,7 +54,7 @@
 
 			"pin_to_sibling"		"SaveCasualSearchCriteria"
 			"pin_corner_to_sibling"		"1"
-			"pin_to_sibling_corner"		"0"
+			//"pin_to_sibling_corner"		"0"
 
 			"SubImage"
 			{
@@ -130,7 +130,7 @@
 			"mouseinputenabled"	"1"
 
 			"pin_to_sibling"		"GameModesList"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"2"
 		}
 

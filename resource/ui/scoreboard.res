@@ -73,7 +73,7 @@
 
 		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"2"
-		"pin_to_sibling_corner"		"0"
+		//"pin_to_sibling_corner"		"0"
 
 		if_mvm
 		{
@@ -120,8 +120,8 @@
 		"fgcolor_override"		"White"
 
 		"pin_to_sibling"		"BlueBar"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//"pin_corner_to_sibling"		"0"
+		//"pin_to_sibling_corner"		"0"
 
 		if_mvm
 		{
@@ -171,7 +171,7 @@
 		"fgcolor_override"		"White"
 
 		"pin_to_sibling"		"BlueTeamLabel"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		if_mvm
@@ -306,7 +306,7 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"BluePlayerList"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		if_mvm
@@ -328,7 +328,7 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"InfoLine"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		"KillsCount"
@@ -482,7 +482,7 @@
 			"paintbackground"	"0"
 
 			"pin_to_sibling"		"AssistsCount"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"6"
 		}
 		"HealingCount"
@@ -556,7 +556,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"HeadshotsLabel"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"2"
 		}
 		"BackstabsCount"
@@ -592,7 +592,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"BackstabsLabel"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"2"
 		}
 		"InvulnCount"
@@ -628,7 +628,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"HeadshotsCount"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"CapturesCount"
@@ -664,7 +664,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"CapturesLabel"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"2"
 		}
 		"DefensesCount"
@@ -756,8 +756,8 @@
 		"paintbackground"	"0"
 
 		"pin_to_sibling"		"LocalPlayerStatsPanel"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//"pin_corner_to_sibling"		"0"
+		//"pin_to_sibling_corner"		"0"
 
 		if_mvm
 		{
@@ -834,7 +834,7 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"ScoreboardMainBG"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		if_mvm
@@ -859,7 +859,7 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Spectators"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		if_mvm

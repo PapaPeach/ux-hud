@@ -36,7 +36,7 @@
 			"fgcolor_override"	"White"
 
 			"pin_to_sibling"		"ChallengeLabel"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"CompleteLabel"
@@ -51,7 +51,7 @@
 			"fgcolor_override"	"White"
 
 			"pin_to_sibling"		"DifficultyLabel"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"TourLevelLabel"
@@ -66,7 +66,7 @@
 			"fgcolor_override"	"White"
 
 			"pin_to_sibling"		"CompleteLabel"
-			"pin_corner_to_sibling"		"0"
+			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"TourlistGroupBox"
@@ -513,7 +513,7 @@
 
 			"pin_to_sibling"	"TourLevelImage"
 			"pin_corner_to_sibling"	"1"
-			"pin_to_sibling_corner"	"0"
+			//"pin_to_sibling_corner"	"0"
 		}
 		"TourLevelImage"
 		{

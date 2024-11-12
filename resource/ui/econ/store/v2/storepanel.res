@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"settitlebarvisible"	"1"
 		"bgcolor_override"		"BlackLight"
-		
+
 		"title"		"#StoreTitle"
 		"title_font"	"Size 24"
 		"titletextinsetX"	"40"
@@ -20,11 +20,11 @@
 		"titlebarfgcolor_override"		"Blank"
 		"titlebardisabledfgcolor_override"		"Blank"
 		"titlebarbgcolor_override"		"Blank"
-		
+
 		"clientinsetx_override"		"0"
 		"sheetinset_bottom"		"40"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -35,7 +35,7 @@
 		"tabheight"		"15"
 		"yoffset"		"20"
 		"transition_time" "0"
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"0"
@@ -59,7 +59,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"TransparentBlack"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -98,7 +98,7 @@
 
 		"pin_to_sibling"	"SupportCommunityMapMakersLabel"
 		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"0"
+		//"pin_to_sibling_corner"	"0"
 	}
 
 	"SupportCommunityMapMakersLabel"
@@ -117,7 +117,7 @@
 		"visible"		"0"
 		"fgcolor"		"White"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"

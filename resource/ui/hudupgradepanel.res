@@ -207,7 +207,7 @@
 			"bgcolor_override"	"GrayDarkest"
 		}
 
-		"MouseOverTabPanel" //CAUSES CRASH?
+		"MouseOverTabPanel"	//CAUSES CRASH?
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MouseOverTabPanel"
@@ -223,12 +223,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MouseOverUpgradePanel"
-			"zpos"		"10"
+			"zpos"		"30"
 			"wide"		"157"
 			"tall"		"47"
 			"visible"		"0"
 			"enabled"		"1"
 			"border"	"BlueHighlightBorderUltraThick"
+			"mouseinputenabled"	"0"
 		}
 
 		"UpgradeItemsDescriptionBG"
@@ -275,7 +276,7 @@
 			"bgcolor_override"	"TransparentBlack"
 
 			"pin_to_sibling"	"UpgradeItemsDescriptionBG"
-			"pin_corner_to_sibling"	"0"
+			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -312,7 +313,7 @@
 			"wrap"		"1"
 
 			"pin_to_sibling"	"UpgradeItemsLabel"
-			"pin_corner_to_sibling"	"0"
+			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 

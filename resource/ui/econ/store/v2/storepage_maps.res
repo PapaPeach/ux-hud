@@ -10,14 +10,14 @@
 			"model_ypos"	"-3"
 			"model_wide"	"100"
 			"model_tall"	"70"
-			
+
 			"itemmodelpanel"
 			{
 				"force_square_image"	"1"
 			}
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 	}
-	
+
 	"SubTitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -50,7 +50,7 @@
 		"fgcolor"		"WhiteGray"
 
 		"pin_to_sibling"		"TitleLabel"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 

@@ -157,7 +157,7 @@
 
 		"pin_to_sibling"		"NameFilterTextEntry"
 		"pin_corner_to_sibling"		"2"
-		"pin_to_sibling_corner"		"0"
+		//"pin_to_sibling_corner"		"0"
 	}
 	"NameFilterTextEntry"
 	{
@@ -195,7 +195,7 @@
 
 		"pin_to_sibling"		"SubcategoryFilterComboBox"
 		"pin_corner_to_sibling"		"2"
-		"pin_to_sibling_corner"		"0"
+		//"pin_to_sibling_corner"		"0"
 	}
 	"SubcategoryFilterComboBox"
 	{
@@ -226,7 +226,7 @@
 		"defaultSelectionBG2Color_override" "Blank"
 
 		"pin_to_sibling"		"NameFilterTextEntry"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 
 		"Button"
@@ -254,7 +254,7 @@
 
 		"pin_to_sibling"		"SortFilterComboBox"
 		"pin_corner_to_sibling"		"2"
-		"pin_to_sibling_corner"		"0"
+		//"pin_to_sibling_corner"		"0"
 	}
 	"SortFilterComboBox"
 	{
@@ -285,7 +285,7 @@
 		"defaultSelectionBG2Color_override" "Blank"
 
 		"pin_to_sibling"		"SubcategoryFilterComboBox"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 
 		"Button"
@@ -386,7 +386,7 @@
 
 		"pin_to_sibling"		"ClassFilterNavPanel"
 		"pin_corner_to_sibling"		"2"
-		"pin_to_sibling_corner"		"0"
+		//"pin_to_sibling_corner"		"0"
 	}
 	"ClassFilterNavPanel"
 	{
@@ -526,7 +526,7 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"		"CartButton"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 	"CartButton"
@@ -611,7 +611,7 @@
 		"fgcolor_override" "White"
 
 		"pin_to_sibling"		"PrevPageButton"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"NextPageButton"
@@ -633,7 +633,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"		"CurPageLabel"
-		"pin_corner_to_sibling"		"0"
+		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"NextPageTrigger"

@@ -20,7 +20,7 @@
 
 		"pin_to_sibling"		"criteria"
 		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"0"
+		//"pin_to_sibling_corner"		"0"
 	}
 
 	"ReturnButton"

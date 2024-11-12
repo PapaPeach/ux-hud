@@ -1,5 +1,5 @@
 "Resource/UI/WaveCompletePanel.res"
-{		
+{
 	"WaveCompleteContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -23,7 +23,7 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}
-		
+
 		"WaveCompleteLabelShadow"
 		{
 			"ControlName"	"CExLabel"
@@ -56,10 +56,10 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"WaveCompleteContainer"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 	}
-		
+
 	"CreditContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -69,7 +69,7 @@
 		"visible"		"1"
 		"pin_to_sibling"		"Background"
 
-		
+
 		"CreditCollectedTextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -83,7 +83,7 @@
 			"tall"			"20"
 			"fgcolor"		"White"
 		}
-		
+
 		"CreditCollectedCountLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -97,7 +97,7 @@
 			"tall"			"20"
 			"fgcolor"		"Green"
 		}
-		
+
 		"CreditMissedTextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -111,7 +111,7 @@
 			"tall"			"20"
 			"fgcolor"		"White"
 		}
-		
+
 		"CreditMissedCountLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -125,7 +125,7 @@
 			"tall"			"20"
 			"fgcolor"		"Red"
 		}
-		
+
 		"CreditBonusTextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -139,7 +139,7 @@
 			"tall"			"20"
 			"fgcolor"		"White"
 		}
-		
+
 		"CreditBonusCountLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -154,7 +154,7 @@
 			"fgcolor"		"Green"
 		}
 	}
-	
+
 	"RatingContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -164,7 +164,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"pin_to_sibling"		"Background"
-		
+
 		"RatingLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -193,7 +193,7 @@
 			"tall"			"30"
 			"fgcolor"		"White"
 		}
-		
+
 		"RatingTextShadow"
 		{
 			"ControlName"	"CExLabel"

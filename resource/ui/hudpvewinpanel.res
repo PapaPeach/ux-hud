@@ -25,9 +25,9 @@
 			"textAlignment"		"Center"
 			"fgcolor"		"White"
 		}
-		
+
 		"WinningTeamLabelDropshadow"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
 			"font"			"Size 20"
@@ -59,12 +59,12 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"WaveCompleteContainer"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 	}
-	
+
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"Size 16"
@@ -100,7 +100,7 @@
 		"fgcolor"		"White"
 
 		"pin_to_sibling"		"WinReasonLabel"
-		"pin_corner_to_sibling"	"0"
+		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"2"
 	}
 }
