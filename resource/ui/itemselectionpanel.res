@@ -256,7 +256,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"PrevPageTrigger"
-		"xpos"		"9999"
+		"xpos"		"6969"
 		"labelText"		"&A"
 		"command"		"prevpage"
 		"sound_depressed"		"UI/buttonclick.wav"
@@ -303,7 +303,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"NextPageTrigger"
-		"xpos"		"9999"
+		"xpos"		"6969"
 		"labelText"		"&D"
 		"command"		"nextpage"
 		"sound_depressed"		"UI/buttonclick.wav"

@@ -1037,98 +1037,34 @@
 		}
 	}
 
-	"Offense"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Offense"
-		"xpos"		"9999"
-	}
-	"Defense"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Defense"
-		"xpos"		"9999"
-	}
-	"Support"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Support"
-		"xpos"		"9999"
-	}
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"		"9999"
-	}
-	"SysMenu"
-	{
-		"ControlName"	"Menu"
-		"fieldName"		"SysMenu"
-		"xpos"		"9999"
-	}
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"		"9999"
-	}
 	"localPlayerImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"localPlayerImage"
-		"xpos"		"9999"
-	}
+	{"fieldName"	"localPlayerImage"	"xpos"	"9999"}
 	"localPlayerBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"localPlayerBG"
-		"xpos"		"9999"
-	}
+	{"fieldName"	"localPlayerBG"	"xpos"	"9999"}
 	"countImage0"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage0"	"xpos"	"9999"}
 	"countImage1"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage1"	"xpos"	"9999"}
 	"countImage2"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage2"	"xpos"	"9999"}
 	"countImage3"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage3"	"xpos"	"9999"}
 	"countImage4"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage4"	"xpos"	"9999"}
 	"countImage5"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage5"	"xpos"	"9999"}
 	"countImage6"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage6"	"xpos"	"9999"}
 	"countImage7"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage7"	"xpos"	"9999"}
 	"countImage8"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage8"	"xpos"	"9999"}
 	"countImage9"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage9"	"xpos"	"9999"}
 	"countImage10"
-	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"countImage10"	"xpos"	"9999"}
 	"ClassTipsPanel"
-	{
-		"ControlName"	"CTFClassTipsPanel"
-		"fieldName"		"ClassTipsPanel"
-		"xpos"		"9999"
-	}
-	"Hint"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Hint"
-		"xpos"		"9999"
-	}
-	"ClassMenuSelect"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassMenuSelect"
-		"xpos"		"9999"
-	}
+	{"fieldName"	"ClassTipsPanel"	"visible"	"0"}
 	"Footer"
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"		"Footer"
-		"tall"		"0"
-	}
+	{"fieldName"	"Footer"	"visible"	"0"}
 }

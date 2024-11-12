@@ -86,7 +86,7 @@
 		"fieldName"		"okCustom"
 		"labelText"		"&e"
 		"command"		"okay"
-		"xpos"		"9999"
+		"xpos"		"6969"
 		"default"		"1"		//testing fix
 	}
 

@@ -12,17 +12,17 @@
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
 		"bgcolor_override"	"BlackLight"
-		
+
 		"max_cart_model_panels"	"12"
-		
+
 		"item_ypos"		"70"
-		
+
 		"item_panels"		"15"
 		"item_columns"		"5"
 		"item_offcenter_x"		"-292"
 		"item_xdelta"		"8"
 		"item_ydelta"		"8"
-		
+
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
 
@@ -33,11 +33,11 @@
 		"item_backdrop_top_margin"		"9"
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"0"
-		
+
 		"item_panel_bgcolor"		"GrayDarkest"
 		"item_panel_bgcolor_mouseover"	"GrayDarkest"
 		"item_panel_bgcolor_selected"	"GrayDarkest"
-		
+
 		"classicon_xdelta"		"5"
 
 		"modelpanels_kv"
@@ -52,7 +52,7 @@
 			"bgcolor_override"		"GrayDarkest"
 			"noitem_textcolor"		"WhiteGray"
 			"paintborder"	"0"
-						
+
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -64,13 +64,13 @@
 			"name_only"		"1"
 			"resize_to_text" "0"
 			"name_label_alignment" "3"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
 			"deferred_description"	"1"
 			"deferred_icon"		"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -78,7 +78,7 @@
 				"inventory_image_type" "1"
 			}
 
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 		"modelpanel_labels_kv"
 		{
@@ -91,7 +91,7 @@
 			"tall"		"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 		"cart_modelpanels_kv"
 		{
@@ -105,7 +105,7 @@
 			"bgcolor_override"		"GrayDarkest"
 			"noitem_textcolor"		"WhiteGray"
 			"paintborder"	"0"
-			
+
 			"model_xpos"	"1"
 			"model_ypos"	"1"
 			"model_wide"	"23"
@@ -113,17 +113,17 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"		"0"
 			}
-			
-			"use_item_sounds" "1"		
+
+			"use_item_sounds" "1"
 		}
 		"cart_labels_kv"
 		{
@@ -136,7 +136,7 @@
 			"tall"		"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 	}
 	"NameFilterLabel"
@@ -216,7 +216,7 @@
 		"unicode"		"0"
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
-		
+
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"TransparentBlack"
 		"disabledFgColor_override" "WhiteGray"
@@ -228,7 +228,7 @@
 		"pin_to_sibling"		"NameFilterTextEntry"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
-		
+
 		"Button"
 		{
 			"paintbackground"	"0"
@@ -275,7 +275,7 @@
 		"unicode"		"0"
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
-		
+
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"TransparentBlack"
 		"disabledFgColor_override" "WhiteGray"
@@ -308,13 +308,13 @@
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"White"
 		"paintborder"	"1"
-		
+
 		"text_ypos"		"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"		"Size 11"
@@ -399,14 +399,14 @@
 		"tall"		"15"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_horizontal_buffer"	"2"
 		"display_vertically"	"0"
 		"align"		"west"
-		
+
 		"ButtonSettings"
 		{
 			"wide"		"15"
@@ -416,16 +416,16 @@
 			"labelText"		""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"0"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -436,7 +436,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		"Buttons"
 		{
@@ -474,7 +474,7 @@
 				"image_default"		"class_icons/filter_demo_motd"
 				"image_selected"	"class_icons/filter_demo_on"
 				"tooltiptext"		"#TF_Items_Demoman"
-			}	
+			}
 			"heavy"
 			{
 				"userdata"		"6"
@@ -509,7 +509,7 @@
 				"image_default"		"class_icons/filter_spy_motd"
 				"image_selected"	"class_icons/filter_spy_on"
 				"tooltiptext"		"#TF_Items_Spy"
-			}	
+			}
 		}
 	}
 	"BackpackSpaceLabel"
@@ -588,7 +588,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageTrigger"
-		"xpos"		"9999"
+		"xpos"		"6969"
 		"labelText"		"&A"
 		"command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -640,7 +640,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageTrigger"
-		"xpos"		"9999"
+		"xpos"		"6969"
 		"labelText"		"&D"
 		"command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"

@@ -12,15 +12,15 @@
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
 		"bgcolor_override"	"BlackLight"
-		
+
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
-		
+
 		"max_cart_model_panels"	"5"
-		
+
 		"item_ypos"		"70"
 		"item_mod_wide"	"40"
-		
+
 		"item_panels"		"15"
 		"item_columns"		"5"
 		"item_offcenter_x"		"-292"
@@ -28,11 +28,11 @@
 		"item_ydelta"		"8"
 
 		"item_backdrop_color"	"Blank"
-		
+
 		"item_panel_bgcolor"		"GrayDarkest"
 		"item_panel_bgcolor_mouseover"	"GrayDarkest"
 		"item_panel_bgcolor_selected"	"GrayDarkest"
-		
+
 		"classicon_xdelta"		"5"
 
 		"modelpanels_kv"
@@ -47,7 +47,7 @@
 			"bgcolor_override"		"GrayDarkest"
 			"noitem_textcolor"		"WhiteGray"
 			"paintborder"	"0"
-						
+
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -59,10 +59,10 @@
 			"name_only"		"1"
 			"resize_to_text" "0"
 			"name_label_alignment" "3"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -70,7 +70,7 @@
 				"inventory_image_type" "1"
 			}
 
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 		"modelpanel_labels_kv"
 		{
@@ -83,7 +83,7 @@
 			"tall"		"10"
 			"visible"		"0"
 			"enabled"		"1"
-			
+
 			"use_item_sounds" "1"
 		}
 		"cart_modelpanels_kv"
@@ -98,7 +98,7 @@
 			"bgcolor_override"		"GrayDarkest"
 			"noitem_textcolor"		"WhiteGray"
 			"paintborder"	"0"
-			
+
 			"model_xpos"	"1"
 			"model_ypos"	"1"
 			"model_wide"	"23"
@@ -106,17 +106,17 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"		"0"
 			}
-			
-			"use_item_sounds" "1"		
+
+			"use_item_sounds" "1"
 		}
 		"cart_labels_kv"
 		{
@@ -129,7 +129,7 @@
 			"tall"		"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 	}
 	"mouseoveritempanel"
@@ -145,13 +145,13 @@
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"WhiteGray"
 		"paintborder"	"1"
-		
+
 		"text_ypos"		"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"		"Size 11"
@@ -179,13 +179,13 @@
 		"tall"		"15"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_horizontal_buffer"	"8"
 		"display_vertically"	"0"
-		
+
 		"ButtonSettings"
 		{
 			"wide"		"111"
@@ -196,7 +196,7 @@
 			"textAlignment"		"center"
 			"scaleImage"		"1"
 			"font"		"Size 10"
-			
+
 			"fgcolor"	"White"
 			"defaultBgColor_override" "GrayDark"
 			"defaultFgColor_override" "White"
@@ -204,16 +204,16 @@
 			"armedFgColor_override" "White"
 			"selectedBgColor_override" "MainTheme"
 			"selectedFgColor_override"	"White"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"1"
 			"paintborder"		"1"
-			
+
 			"border"		"ButtonBorder"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
 		}
@@ -322,7 +322,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageTrigger"
-		"xpos"		"9999"
+		"xpos"		"6969"
 		"labelText"		"&A"
 		"command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -374,7 +374,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageTrigger"
-		"xpos"		"9999"
+		"xpos"		"6969"
 		"labelText"		"&D"
 		"command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"

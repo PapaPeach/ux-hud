@@ -4,9 +4,6 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"mapinfo"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"		"1"
@@ -18,8 +15,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"24"
@@ -36,8 +31,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"1"
 		"tall"		"16"
@@ -58,8 +51,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTypeLeftBracket"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"1"
 		"tall"		"16"
@@ -79,8 +70,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTypeRightBracket"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"1"
 		"tall"		"16"
@@ -141,7 +130,7 @@
 		"fieldName"		"ContinueCustom"
 		"labelText"		"&e"
 		"command"		"continue"
-		"xpos"		"9999"
+		"xpos"		"6969"
 	}
 
 	"MapInfoBack"
@@ -168,5 +157,7 @@
 	}
 
 	"MapImage"
-	{"ControlName"	"ImagePanel"	"xpos"	"9999"}
+	{"fieldName"	"MapImage"	"xpos"	"9999"}
+	"MapInfoWatchIntro"
+	{"fieldName"	"MapInfoWatchIntro"	"xpos"	"9999"}
 }
