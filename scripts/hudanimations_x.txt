@@ -20,8 +20,8 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 	RunEvent HudSpyDisguiseFadeOut 0.1
 }
 
-event CompetitiveGame_LowerChatWindow{}	//plays at post-casual xp screen
-event HudTournament_MoveChatWindow
+event CompetitiveGame_LowerChatWindow{}	//Plays at post-casual xp screen
+event HudTournament_MoveChatWindow	//Investigating
 {
 	//PlaySound 0.0 "weapons/det_pack_timer.wav"
 	//PlaySound 0.5 "weapons/det_pack_timer.wav"
@@ -30,14 +30,22 @@ event HudTournament_MoveChatWindow
 	//PlaySound 2.0 "weapons/det_pack_timer.wav"
 }
 
-event DashboardDimmerReload
+//==============================================================================
+
+event DimmerFix
 {
-	RunEventChild MainMenuOverride ReloadHUD 0.001
+	RunEventChild MainMenuOverride DimmerReload 0.05
 }
 
-event ReloadHUD
+event DimmerReload
 {
-	FireCommand 0.0 "engine hud_reloadscheme"
+	RunEventChild MMDashboard DimmerLoad 0.0
+	FireCommand 0.001 "engine hud_reloadscheme"
+}
+
+event DimmerLoad
+{
+	FireCommand 0.0 "dimmer_clicked"
 }
 
 //==============================================================================
@@ -213,7 +221,7 @@ event HudTournamentSetupPanelOpen
 	//RunEventChild MainMenuOverride HudRecOpen 0.0	//HudRec
 }
 
-event HudTournamentSetupPanelClose	//runs on setup menu initialization | runs on local map initialization
+event HudTournamentSetupPanelClose	//runs on tournament setup initialization | runs on local map initialization
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 

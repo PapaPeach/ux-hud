@@ -435,7 +435,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%readylabel%"
-		"textAlignment"		"south"
+		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 
 		if_mvm
