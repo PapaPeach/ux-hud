@@ -34,13 +34,14 @@ event HudTournament_MoveChatWindow	//Investigating
 
 event DimmerFix
 {
-	RunEventChild MainMenuOverride DimmerReload 0.05
+	RunEventChild MainMenuOverride DimmerReload 0.0
 }
 
 event DimmerReload
 {
+	FireCommand 0.0 "engine disconnect"
 	RunEventChild MMDashboard DimmerLoad 0.0
-	FireCommand 0.001 "engine hud_reloadscheme"
+	FireCommand 0.002 "engine hud_reloadscheme;retry"
 }
 
 event DimmerLoad

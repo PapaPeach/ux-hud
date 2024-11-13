@@ -20,8 +20,8 @@
 
 	DrawTreeFrame
 	{
-		"xpos"		"r500"
-		"wide"		"500"
+		"xpos"		"rs1"
+		"wide"		"420"
 		"tall"		"f0"
 		"title"		"VGUI DrawTree"
 	}

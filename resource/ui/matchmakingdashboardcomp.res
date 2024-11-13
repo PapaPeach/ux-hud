@@ -5,11 +5,11 @@
 	"CompStats"
 	{
 		"fieldName"		"CompStats"
-		"xpos"			"rs1"
-		"ypos"			"24"
-		"zpos"			"9999"
-		"wide"			"p0.4"
-		"tall"			"f83"
+		"xpos"		"rs1"
+		"ypos"		"59"
+		"zpos"		"6969"
+		"wide"		"p0.4"
+		"tall"		"f79"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 	}
@@ -17,33 +17,41 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"rs1"
-		"ypos"			"2"
-		"zpos"			"99"
-		"wide"			"p0.8333"
-		"tall"			"f29"
+		"xpos"		"rs1"
+		"ypos"		"27"
+		"zpos"		"99"
+		"wide"		"p0.8333"
+		"tall"		"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
+	"ReturnButton"
+	{
+		"xpos"		"s-1"
+		"ypos"		"0"
+		"tall"		"f0"
+	}
+
 	"BGPanel"
 	{
-		"wide"			"p0.8333"
-		"xpos"			"rs1"
+		"wide"		"p0.8333"
+		"tall"		"f0"
+		"xpos"		"rs1"
 	}
 
 	"QueueButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"rs1"
-		"ypos"			"rs1"
-		"zpos"			"99"
-		"wide"			"p0.8333"
-		"tall"			"24"
+		"xpos"		"rs1"
+		"ypos"		"0"
+		"zpos"		"99"
+		"wide"		"p0.8333"
+		"tall"		"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"Size 28"
+		"font"		"Size 28"
 		"textAlignment"	"center"
 		"Command"		"find_game"
 		"proportionaltoparent"	"1"

@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMTourOfDutyGroupBox"
-		"xpos"		"p0.01"
+		"xpos"		"8"
 		"ypos"		"111"
 		"zpos"		"-1"
-		"wide"		"p0.48"
+		"wide"		"410"
 		"tall"		"225"
 		"bgcolor_override"	"TransparentBlack"
 
@@ -127,10 +127,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpTourLootDescriptionBox"
-		"xpos"		"p0.01"
+		"xpos"		"8"
 		"ypos"		"9"
 		"zpos"		"-1"
-		"wide"		"p0.48"
+		"wide"		"410"
 		"tall"		"93"
 		"bgcolor_override"	"TransparentBlack"
 
@@ -180,10 +180,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMEconItemsGroupBox"
-		"xpos"		"p0.01"
+		"xpos"		"8"
 		"ypos"		"9"
 		"zpos"		"-1"
-		"wide"		"p0.48"
+		"wide"		"410"
 		"tall"		"93"
 		"bgcolor_override"	"TransparentBlack"
 
@@ -403,10 +403,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMPracticeGroupBox"
-		"xpos"		"p0.01"
+		"xpos"		"8"
 		"ypos"		"9"
 		"zpos"		"-1"
-		"wide"		"p0.48"
+		"wide"		"410"
 		"tall"		"93"
 		"bgcolor_override"	"TransparentBlack"
 
@@ -477,10 +477,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MvMSelectChallengeGroupBox"
-		"xpos"		"p0.01"
+		"xpos"		"8"
 		"ypos"		"111"
 		"zpos"		"-1"
-		"wide"		"p0.48"
+		"wide"		"410"
 		"tall"		"225"
 		"bgcolor_override"	"TransparentBlack"
 

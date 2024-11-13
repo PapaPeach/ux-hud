@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"CEventPlayListEntry"
 		"fieldName"		"EventEntry"
-		"xpos"			"rs1"
-		"ypos"			"42"
-		"tall"			"20"
-		"wide"			"p0.3333"
+		"xpos"		"rs1"
+		"ypos"		"42"
+		"tall"		"20"
+		"wide"		"p0.3333"
 		"proportionaltoparent"	"0"
 
 		"button_command"	"play_event"
@@ -17,10 +17,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CasualEntry"
-		"xpos"			"rs1"
-		"ypos"			"0"
-		"tall"			"59"
-		"wide"			"p0.3333"
+		"xpos"		"rs1"
+		"ypos"		"0"
+		"tall"		"59"
+		"wide"		"p0.3333"
 		"proportionaltoparent"	"0"
 
 		"button_token"		"#MMenu_PlayList_Casual_Button"
@@ -29,8 +29,8 @@
 
 		if_event
 		{
-			"ypos"			"0"
-			"tall"			"39"
+			"ypos"		"0"
+			"tall"		"39"
 		}
 	}
 
@@ -38,10 +38,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
-		"xpos"			"rs2"
-		"ypos"			"0"
-		"tall"			"59"
-		"wide"			"p0.3333"
+		"xpos"		"rs2"
+		"ypos"		"0"
+		"tall"		"59"
+		"wide"		"p0.3333"
 		"proportionaltoparent"	"0"
 
 		"button_token"		"#MMenu_PlayList_Competitive_Button"
@@ -50,7 +50,7 @@
 
 		if_event
 		{
-			"ypos"			"3"
+			"ypos"		"3"
 		}
 	}
 
@@ -58,10 +58,10 @@
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
-		"xpos"			"rs3"
-		"ypos"			"0"
-		"tall"			"59"
-		"wide"			"p0.3333"
+		"xpos"		"rs3"
+		"ypos"		"0"
+		"tall"		"59"
+		"wide"		"p0.3333"
 		"proportionaltoparent"	"0"
 
 		"button_token"		"#MMenu_PlayList_MvM_Button"
@@ -70,7 +70,7 @@
 
 		if_event
 		{
-			"ypos"			"3"
+			"ypos"		"3"
 		}
 	}
 }

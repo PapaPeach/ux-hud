@@ -204,6 +204,7 @@
 			"button_activation_type"	"1"
 			"defaultBgColor_override"	"0 0 0 150"
 			"armedBgColor_override"		"0 0 0 150"
+			"tall"		"f0"
 		}
 
 		//Enable quick menu reload

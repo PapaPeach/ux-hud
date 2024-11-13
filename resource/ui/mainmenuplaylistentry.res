@@ -15,7 +15,6 @@
 		"command"		"%button_command%"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
-		"button_activation_type"	"1"
 
 		"border_default"	"WhiteHighlightBorder"
 		"border_armed"		"FriendHighlightBorder"

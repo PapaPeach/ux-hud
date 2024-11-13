@@ -1,32 +1,38 @@
 #base "MatchMakingDashboardSidePanel.res"
 
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"Resource/UI/MatchMakingDashboardMvMModeSelect.res"
 {
 	"MVMModeSelect"
 	{
 		"fieldName"		"MVMModeSelect"
-		"xpos"			"rs1"
-		"ypos"			"24"
-		"zpos"			"9998"
-		"wide"			"p0.4"
-		"tall"			"f83"
+		"xpos"		"rs1"
+		"ypos"		"59"
+		"zpos"		"6968"
+		"wide"		"p0.4"
+		"tall"		"f79"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 	}
 
+	"ReturnButton"
+	{
+		"xpos"		"-18"
+	}
+
 	"BGPanel"
 	{
-		"wide"			"p0.8333"
-		"xpos"			"rs1"
+		"wide"		"p0.8333"
+		"tall"		"f0"
+		"xpos"		"rs1"
 	}
 
 	"MannUpCustom"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MannUpCustom"
-		"xpos"			"p0.067"
+		"xpos"		"p0.067"
 		"wide"		"p0.3333"
-		"tall"		"p0.2759"
+		"tall"		"p0.2785"
 		"visible"		"1"
 		"labelText"		"#TF_MvM_MannUp"
 		"font"		"Size 28"
@@ -51,7 +57,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PracticeCustom"
 		"wide"		"p0.3333"
-		"tall"		"p0.2759"
+		"tall"		"p0.2785"
 		"visible"		"1"
 		"labelText"		"#TF_MvM_BootCamp"
 		"font"		"Size 28"
@@ -79,7 +85,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"Community"
 		"wide"		"p0.3333"
-		"tall"		"p0.2759"
+		"tall"		"p0.2785"
 		"visible"		"1"
 		"labelText"		"Community Missions (Potato.tf)"
 		"font"		"Size 28"

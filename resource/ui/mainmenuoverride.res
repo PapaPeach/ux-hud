@@ -18,6 +18,7 @@
 			"button_activation_type"	"1"
 			"defaultBgColor_override"	"0 0 0 150"
 			"armedBgColor_override"		"0 0 0 150"
+			"tall"		"f0"
 		}
 
 		"SaxxySettings"
@@ -5551,7 +5552,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/16x9_3840x2160/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/16x9_3840x2160/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio16x9"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5580,7 +5581,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/16x9_2560x1440/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/16x9_2560x1440/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio16x9"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5609,7 +5610,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/16x9_1920x1080/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/16x9_1920x1080/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio16x9"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5638,7 +5639,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/16x9_1600x900/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/16x9_1600x900/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio16x9"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5668,7 +5669,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/16x9_1366x768/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/16x9_1366x768/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio16x9"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5714,7 +5715,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/4x3_1280x1024/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/4x3_1280x1024/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio4x3"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5743,7 +5744,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/4x3_1280x960/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/4x3_1280x960/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio4x3"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5772,7 +5773,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/4x3_1024x768/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/4x3_1024x768/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio4x3"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5818,7 +5819,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/16x10_2560x1600/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/16x10_2560x1600/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio16x10"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 			"mouseinputenabled"		"0"
@@ -5848,7 +5849,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/16x10_1680x1050/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/16x10_1680x1050/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio16x10"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5877,7 +5878,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open;echo #base ../resolutions/16x10_1440x900/override.res;con_logfile .x"
+			"Command"		"engine log_open;echo #base ../resolutions/16x10_1440x900/override.res;con_logfile .x;alias x_aspectratio_dump echo aspectratio16x10"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
@@ -5982,7 +5983,7 @@
 			"wide"		"288"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine exec xhud;exec xhud_generate;hud_reloadscheme"
+			"Command"		"engine exec xhud;exec xhud_generate;echo;echo;exec xhud_save;hud_reloadscheme"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"1"
 
