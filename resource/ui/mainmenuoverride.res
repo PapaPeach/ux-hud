@@ -55,7 +55,7 @@
 	"BottomBar"
 	{
 		"ControlName"		"Panel"
-		"fieldname"		"BottomBar"
+		"fieldName"		"BottomBar"
 		"xpos"		"0"
 		"ypos"		"rs1"
 		"zpos"		"-60"
@@ -84,7 +84,7 @@
 	"InfoSeparatorLine"
 	{
 		"ControlName"		"Panel"
-		"fieldname"		"InfoSeparatorLine"
+		"fieldName"		"InfoSeparatorLine"
 		"wide"		"214"
 		"tall"		"1"
 		"visible"		"1"
@@ -93,6 +93,28 @@
 		"pin_to_sibling"		"HudTitle"
 		"pin_corner_to_sibling"		"7"
 		"pin_to_sibling_corner"		"5"
+	}
+
+	"HolidayConditional"
+	{
+		"ControlName"		"CExImageButton"
+		"visible"		"0"
+		"command"	"soundentry xhud.main_menu"
+
+		"if_halloween"
+		{
+			"command"	"soundentry xhud.main_menu_halloween"
+		}
+		"if_soldier"
+		{
+			"command"	"soundentry xhud.main_menu_rickmay"
+		}
+		"SubImage"
+		{
+			"fieldName"	"MessageRelay"
+			"visible"	"0"
+			"actionsignallevel"	"1"
+		}
 	}
 
 	"CycleRankTypeButton"

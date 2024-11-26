@@ -1,0 +1,64 @@
+"xhud.main_menu"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"	"0.55"
+
+	"rndwave"
+	{
+		"wave"	"#*ui/gamestartup1.mp3"
+		"wave"	"#*ui/gamestartup2.mp3"
+		"wave"	"#*ui/gamestartup3.mp3"
+		"wave"	"#*ui/gamestartup4.mp3"
+		"wave"	"#*ui/gamestartup5.mp3"
+		"wave"	"#*ui/gamestartup6.mp3"
+		"wave"	"#*ui/gamestartup7.mp3"
+		"wave"	"#*ui/gamestartup8.mp3"
+		"wave"	"#*ui/gamestartup9.mp3"
+		"wave"	"#*ui/gamestartup10.mp3"
+		"wave"	"#*ui/gamestartup11.mp3"
+		"wave"	"#*ui/gamestartup12.mp3"
+		"wave"	"#*ui/gamestartup13.mp3"
+		"wave"	"#*ui/gamestartup14.mp3"
+		"wave"	"#*ui/gamestartup15.mp3"
+		"wave"	"#*ui/gamestartup16.mp3"
+		"wave"	"#*ui/gamestartup17.mp3"
+		"wave"	"#*ui/gamestartup18.mp3"
+		"wave"	"#*ui/gamestartup19.mp3"
+		"wave"	"#*ui/gamestartup20.mp3"
+		"wave"	"#*ui/gamestartup21.mp3"
+		"wave"	"#*ui/gamestartup22.mp3"
+		"wave"	"#*ui/gamestartup23.mp3"
+		"wave"	"#*ui/gamestartup24.mp3"
+		"wave"	"#*ui/gamestartup25.mp3"
+		"wave"	"#*ui/gamestartup26.mp3"
+		"wave"	"#*ui/gamestartup27.mp3"
+		"wave"	"#*ui/gamestartup28.mp3"
+		"wave"	"#*ui/gamestartup29.mp3"
+	}
+}
+
+"xhud.main_menu_halloween"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"	"0.55"
+
+	"rndwave"
+	{
+		"wave"	"#*ui/holiday/gamestartup_halloween.mp3"
+		"wave"	"#*ui/holiday/gamestartup_halloween1.mp3"
+	}
+}
+
+"xhud.main_menu_rickmay"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"	"0.55"
+
+	"rndwave"
+	{
+		"wave"	"#*ui/holiday/gamestartup_soldier.mp3"
+	}
+}

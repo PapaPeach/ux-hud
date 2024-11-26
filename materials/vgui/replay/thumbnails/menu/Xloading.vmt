@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$alphatest" "1"
-	"$alphatestreference" "0.6"
+	"$alphatestreference" "0.4"
 	"$baseTexture" "vgui\replay\thumbnails\menu\Xloading"
 	"$ignorez" "1"
 
