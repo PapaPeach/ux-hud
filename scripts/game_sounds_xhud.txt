@@ -2,7 +2,6 @@
 {
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NONE"
-	"volume"	"0.55"
 
 	"rndwave"
 	{
@@ -42,7 +41,6 @@
 {
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NONE"
-	"volume"	"0.55"
 
 	"rndwave"
 	{
@@ -55,7 +53,6 @@
 {
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NONE"
-	"volume"	"0.55"
 
 	"rndwave"
 	{
