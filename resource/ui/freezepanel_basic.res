@@ -1,4 +1,4 @@
-#base "../../cfg/_xhud_customizations.txt"
+#base "../../cfg/_xhud/_xhud_customizations.txt"
 "Resource/UI/FreezePanel_Basic.res"
 {
 	"FreezePanel"

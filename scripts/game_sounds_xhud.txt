@@ -1,8 +1,6 @@
 "xhud.main_menu"
 {
 	"channel"	"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_NONE"
-
 	"rndwave"
 	{
 		"wave"	"#*ui/gamestartup1.mp3"
@@ -40,8 +38,6 @@
 "xhud.main_menu_halloween"
 {
 	"channel"	"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_NONE"
-
 	"rndwave"
 	{
 		"wave"	"#*ui/holiday/gamestartup_halloween.mp3"
@@ -52,8 +48,6 @@
 "xhud.main_menu_rickmay"
 {
 	"channel"	"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_NONE"
-
 	"rndwave"
 	{
 		"wave"	"#*ui/holiday/gamestartup_soldier.mp3"

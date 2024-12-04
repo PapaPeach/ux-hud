@@ -243,9 +243,9 @@ event HudRecClose
 }
 
 event HudRecOpen
-{
-	FireCommand 0.05 "engine echo ====================hudrec_open===================="
-	FireCommand 0.05 "engine hudrec_open"
+{	//0.05 works
+	FireCommand 0.02 "engine echo ====================hudrec_open===================="
+	FireCommand 0.02 "engine hudrec_open"
 }
 
 //==============================================================================

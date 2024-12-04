@@ -1,4 +1,4 @@
-#base "../../cfg/_xhud_resolution_selection.txt"
+#base "../../cfg/_xhud/_xhud_resolution_selection.txt"
 
 "Resource/UI/TargetID.res"
 {

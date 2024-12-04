@@ -1,5 +1,5 @@
-#base "../../cfg/_xhud_resolution_selection.txt"
-#base "../../cfg/_xhud_customizations.txt"
+#base "../../cfg/_xhud/_xhud_resolution_selection.txt"
+#base "../../cfg/_xhud/_xhud_customizations.txt"
 
 "Resource/UI/HudPlayerHealth.res"
 {
