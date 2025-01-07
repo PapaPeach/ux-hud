@@ -1,11 +1,11 @@
 event CollectionCrafting_ItemRecieved	//Fix trade-up background (wiethoofd)
 {
 	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
-	//PlaySound 0.0 "weapons/det_pack_timer.wav"
-	//PlaySound 0.5 "weapons/det_pack_timer.wav"
-	//PlaySound 1.0 "weapons/det_pack_timer.wav"
-	//PlaySound 1.5 "weapons/det_pack_timer.wav"
-	//PlaySound 2.0 "weapons/det_pack_timer.wav"
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	PlaySound 0.5 "weapons/det_pack_timer.wav"
+	PlaySound 1.0 "weapons/det_pack_timer.wav"
+	PlaySound 1.5 "weapons/det_pack_timer.wav"
+	PlaySound 2.0 "weapons/det_pack_timer.wav"
 }
 
 event SurveyShowSequence	//Yeet this
@@ -18,16 +18,65 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 	Animate Hitmarker	Alpha	0	Linear 0.1 0.001
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudSpyDisguiseFadeOut 0.1
+
+	RunEventChild MainMenuOverride PeachRecSpawn 0.0
 }
 
 event CompetitiveGame_LowerChatWindow{}	//Plays at post-casual xp screen
 event HudTournament_MoveChatWindow	//Investigating
 {
-	//PlaySound 0.0 "weapons/det_pack_timer.wav"
-	//PlaySound 0.5 "weapons/det_pack_timer.wav"
-	//PlaySound 1.0 "weapons/det_pack_timer.wav"
-	//PlaySound 1.5 "weapons/det_pack_timer.wav"
-	//PlaySound 2.0 "weapons/det_pack_timer.wav"
+	PlaySound 0.0 "weapons/det_pack_timer.wav"
+	PlaySound 0.5 "weapons/det_pack_timer.wav"
+	PlaySound 1.0 "weapons/det_pack_timer.wav"
+	PlaySound 1.5 "weapons/det_pack_timer.wav"
+	PlaySound 2.0 "weapons/det_pack_timer.wav"
+}
+
+//==============================================================================
+
+event HudTournamentSetupPanelOpen
+{
+	//SetInputEnabled HudTournamentSetup 0 0.0
+	//SetInputEnabled HudTournamentSetup 1 1.0
+
+	Animate HudTournamentSetup	xpos	c-90	Linear 0.0 0.001	//Fix wrong position
+	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
+
+	RunEventChild MainMenuOverride PeachRecOpen 0.0	//PeachRec
+}
+
+event HudTournamentSetupPanelClose	//runs on tournament setup initialization | runs on local map initialization
+{
+	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
+
+	Animate HudScope	xpos	0	Linear 0.0 0.1	//Undo scope removal
+	RunEventChild MainMenuOverride PeachRecClose 0.0	//PeachRec
+}
+
+//PeachRec V3
+event PeachRecSpawn
+{
+	FireCommand 0.1 "engine echo ====================peachrec_spawn===================="
+	FireCommand 0.1 "engine peachrec_spawn"
+
+	FireCommand 1.0 "engine peachrec_fallback"
+}
+
+event PeachRecOpen
+{
+	StopEvent PeachRecClose 0.0
+	StopEvent PeachRecSpawn 0.0
+
+	FireCommand 0.0 "engine echo ====================peachrec_open===================="
+	FireCommand 0.0 "engine peachrec_open"
+}
+
+event PeachRecClose
+{
+	FireCommand 0.0 "engine echo ====================peachrec_close===================="
+	FireCommand 5.0 "engine peachrec_close"
+
+	FireCommand 5.1 "engine peachrec_trigger"
 }
 
 //==============================================================================
@@ -220,36 +269,6 @@ event ActiveTimerDim
 
 //==============================================================================
 
-event HudTournamentSetupPanelOpen
-{
-	Animate HudTournamentSetup	xpos	c-90	Linear 0.0 0.001	//Fix wrong position
-	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
-
-	//RunEventChild MainMenuOverride HudRecOpen 0.0	//HudRec
-}
-
-event HudTournamentSetupPanelClose	//runs on tournament setup initialization | runs on local map initialization
-{
-	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
-
-	//RunEventChild MainMenuOverride HudRecClose 0.0	//HudRec
-}
-
-//HudRec V2
-event HudRecClose
-{
-	FireCommand 0.1 "engine echo ====================hudrec_close===================="
-	FireCommand 0.1 "engine hudrec_close"
-}
-
-event HudRecOpen
-{	//0.05 works
-	FireCommand 0.02 "engine echo ====================hudrec_open===================="
-	FireCommand 0.02 "engine hudrec_open"
-}
-
-//==============================================================================
-
 //Show player model on spy disguise
 event HudSpyDisguiseFadeIn
 {
@@ -295,6 +314,8 @@ event HudReadyPulseEnd
 	RunEventChild MainMenuOverride MvMFixer 0.0
 
 	RunEvent HudTournament_ShowTimerDefault 0.0
+
+	Animate HudScope	xpos	9999	Linear 0.0 0.1 //Scope removal
 }
 
 event HudTournament_HideTimer
