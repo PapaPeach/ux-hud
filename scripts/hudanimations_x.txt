@@ -18,8 +18,6 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 	Animate Hitmarker	Alpha	0	Linear 0.1 0.001
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudSpyDisguiseFadeOut 0.1
-
-	RunEventChild MainMenuOverride PeachRecSpawn 0.0
 }
 
 event CompetitiveGame_LowerChatWindow{}	//Plays at post-casual xp screen
@@ -32,13 +30,21 @@ event HudTournament_MoveChatWindow	//Investigating
 	PlaySound 2.0 "weapons/det_pack_timer.wav"
 }
 
+
+//============================================================================== TESTING
+
+event HintMessageHide	//Plays on spawn
+{
+	Animate HudHintDisplay	FgColor	"255 220 0 0"	Linear 0.0 0.2
+	Animate HudHintDisplay	HintSize	"0"	Deaccel 0.2	0.3
+
+	RunEventChild MainMenuOverride PeachRecSpawn 0.0
+}
+
 //==============================================================================
 
 event HudTournamentSetupPanelOpen
 {
-	//SetInputEnabled HudTournamentSetup 0 0.0
-	//SetInputEnabled HudTournamentSetup 1 1.0
-
 	Animate HudTournamentSetup	xpos	c-90	Linear 0.0 0.001	//Fix wrong position
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
 
@@ -56,27 +62,20 @@ event HudTournamentSetupPanelClose	//runs on tournament setup initialization | r
 //PeachRec V3
 event PeachRecSpawn
 {
-	FireCommand 0.1 "engine echo ====================peachrec_spawn===================="
-	FireCommand 0.1 "engine peachrec_spawn"
-
-	FireCommand 1.0 "engine peachrec_fallback"
+	FireCommand 0.0 "engine echo ====================PeachRecSpawn===================="
+	FireCommand 0.0 "engine peachrec;player_ready_toggle"
 }
 
 event PeachRecOpen
 {
-	StopEvent PeachRecClose 0.0
-	StopEvent PeachRecSpawn 0.0
-
-	FireCommand 0.0 "engine echo ====================peachrec_open===================="
-	FireCommand 0.0 "engine peachrec_open"
+	FireCommand 0.0 "engine echo ====================PeachRecOpen===================="
+	FireCommand 0.0 "engine pr_open"
 }
 
 event PeachRecClose
 {
-	FireCommand 0.0 "engine echo ====================peachrec_close===================="
-	FireCommand 5.0 "engine peachrec_close"
-
-	FireCommand 5.1 "engine peachrec_trigger"
+	FireCommand 0.0 "engine echo ====================PeachRecClose===================="
+	FireCommand 0.1 "engine pr_close"
 }
 
 //==============================================================================
