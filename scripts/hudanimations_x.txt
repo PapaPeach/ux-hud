@@ -63,7 +63,7 @@ event HudTournamentSetupPanelClose	//runs on tournament setup initialization | r
 event PeachRecSpawn
 {
 	FireCommand 0.0 "engine echo ====================PeachRecSpawn===================="
-	FireCommand 0.0 "engine peachrec;player_ready_toggle"
+	FireCommand 0.0 "engine peachrec"
 }
 
 event PeachRecOpen
@@ -75,7 +75,7 @@ event PeachRecOpen
 event PeachRecClose
 {
 	FireCommand 0.0 "engine echo ====================PeachRecClose===================="
-	FireCommand 0.1 "engine pr_close"
+	FireCommand 0.0 "engine pr_close"
 }
 
 //==============================================================================
