@@ -21,7 +21,7 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 }
 
 event CompetitiveGame_LowerChatWindow{}	//Plays at post-casual xp screen
-event HudTournament_MoveChatWindow	//Investigating
+event HudTournament_MoveChatWindow	//Investigating | End of map half on thunder mountain?
 {
 	PlaySound 0.0 "weapons/det_pack_timer.wav"
 	PlaySound 0.5 "weapons/det_pack_timer.wav"
