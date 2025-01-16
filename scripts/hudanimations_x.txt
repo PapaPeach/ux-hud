@@ -67,9 +67,9 @@ event PeachRecSpawn
 }
 
 event PeachRecOpen
-{
-	FireCommand 0.0 "engine echo ====================PeachRecOpen===================="
-	FireCommand 0.0 "engine pr_open"
+{	//Can set to 0.003 delay if needed
+	FireCommand 0.001 "engine echo ====================PeachRecOpen===================="
+	FireCommand 0.001 "engine pr_open"
 }
 
 event PeachRecClose
